@@ -1,0 +1,79 @@
+# CI — runs on every push to any branch and on every pull request.
+# Checks: TypeScript (server + client) and ESLint.
+# No secrets required for this workflow.
+
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  typecheck-and-lint:
+    name: Typecheck & Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      # ── Server ────────────────────────────────────────────────────────────
+
+      - name: Typecheck server
+        working-directory: server
+        run: npx tsc --noEmit
+
+      # ── Client ────────────────────────────────────────────────────────────
+
+      - name: Typecheck client
+        working-directory: client
+        run: npx tsc --noEmit
+
+      # ── Lint (both workspaces) ─────────────────────────────────────────────
+      # Runs only if .eslintrc.cjs exists; skips gracefully otherwise.
+
+      - name: Lint
+        run: |
+          if [ -f .eslintrc.cjs ]; then
+            npx eslint "server/src/**/*.ts" "client/src/**/*.{ts,tsx}" \
+              --max-warnings 0
+          else
+            echo "No ESLint config found — skipping lint step."
+          fi
+
+  docker-build-check:
+    name: Docker Build (smoke test)
+    runs-on: ubuntu-latest
+    # Only run on PRs and pushes to main to save minutes
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker image (no push)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          tags: spending-tracker-server:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

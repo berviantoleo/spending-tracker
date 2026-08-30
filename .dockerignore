@@ -1,0 +1,12 @@
+node_modules
+client
+supabase
+terraform
+*.md
+.git
+.gitignore
+.env
+.env.*
+server/.env
+server/.env.*
+server/node_modules

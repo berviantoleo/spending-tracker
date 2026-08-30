@@ -1,0 +1,144 @@
+- generic [ref=f26e7]:
+  - banner [ref=f26e8]:
+    - generic [ref=f26e11]:
+      - generic:
+        - navigation "Skip to content":
+          - link "Skip to content" [ref=f26e12] [cursor=pointer]:
+            - /url: "#main-content"
+        - link "IBM logo" [ref=f26e15] [cursor=pointer]:
+          - /url: https://www.ibm.com/
+      - generic [ref=f26e21]:
+        - link "Documentation" [ref=f26e24] [cursor=pointer]:
+          - /url: https://www.ibm.com/docs/en
+        - generic [ref=f26e25]:
+          - search [ref=f26e26]:
+            - combobox "IBM search field" [expanded] [ref=f26e27]:
+              - textbox "IBM search field" [ref=f26e28]:
+                - /placeholder: Search in IBM watsonx as a Service
+              - generic:
+                - listbox "suggestions-list"
+          - generic [ref=f26e29]:
+            - button "Search all of IBM" [ref=f26e30] [cursor=pointer]
+            - button "Clear input" [ref=f26e33] [cursor=pointer]
+      - generic [ref=f26e37]:
+        - button "User profile" [ref=f26e38] [cursor=pointer]
+        - generic: My IBM
+        - generic: Log in
+    - complementary "Dark mode button":
+      - generic [ref=f26e41]:
+        - button "Dark mode" [ref=f26e43] [cursor=pointer]
+        - tooltip
+  - generic [ref=f26e46]:
+    - generic [ref=f26e48]:
+      - generic [ref=f26e49]:
+        - navigation "TOC version selector" [ref=f26e50]:
+          - generic [ref=f26e51]:
+            - generic [ref=f26e52]: IBM watsonx
+            - generic [ref=f26e54]:
+              - button "Close table of contents" [ref=f26e56] [cursor=pointer]
+              - tooltip
+          - img "Active loading indicator" [ref=f26e60]
+        - complementary "Show full table of contents" [ref=f26e63]:
+          - generic [ref=f26e64]:
+            - checkbox "Show full table of contents" [checked] [ref=f26e65]
+            - generic [ref=f26e66] [cursor=pointer]: Show full table of contents
+        - search "Filter on titles" [ref=f26e69]:
+          - searchbox "Filter on titles" [ref=f26e71]
+      - navigation "TOC navigation" [ref=f26e72]:
+        - list [ref=f26e73]:
+          - listitem [ref=f26e74]:
+            - list [ref=f26e75]:
+              - listitem [ref=f26e76]:
+                - link "Documentation home" [ref=f26e78] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=documentation-home
+              - listitem [ref=f26e79]:
+                - generic [ref=f26e80]:
+                  - link "Overview of IBM watsonx" [ref=f26e81] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=overview-watsonx
+                  - generic [ref=f26e82] [cursor=pointer]
+              - listitem [ref=f26e85]:
+                - generic [ref=f26e86]:
+                  - link "Developer Hub" [ref=f26e87] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=developer-hub
+                  - generic [ref=f26e88] [cursor=pointer]
+              - listitem [ref=f26e91]:
+                - generic [ref=f26e92]:
+                  - link "Planning an AI solution" [ref=f26e93] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=planning-ai-solution
+                  - generic [ref=f26e94] [cursor=pointer]
+              - listitem [ref=f26e97]:
+                - generic [ref=f26e98]:
+                  - link "Getting started and tutorials" [ref=f26e99] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=getting-started-tutorials
+                  - generic [ref=f26e100] [cursor=pointer]
+              - listitem [ref=f26e103]:
+                - generic [ref=f26e104]:
+                  - link "Gen AI solutions" [ref=f26e105] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=gen-ai-solutions
+                  - generic [ref=f26e106] [cursor=pointer]
+              - listitem [ref=f26e109]:
+                - generic [ref=f26e110]:
+                  - link "Projects" [ref=f26e111] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=projects
+                  - generic [ref=f26e112] [cursor=pointer]
+              - listitem [ref=f26e115]:
+                - generic [ref=f26e116]:
+                  - link "Deployment spaces" [ref=f26e117] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=deployment-spaces
+                  - generic [ref=f26e118] [cursor=pointer]
+              - listitem [ref=f26e121]:
+                - generic [ref=f26e122]:
+                  - link "Preparing data" [ref=f26e123] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=preparing-data
+                  - generic [ref=f26e124] [cursor=pointer]
+              - listitem [ref=f26e127]:
+                - generic [ref=f26e128]:
+                  - link "Data science solutions" [ref=f26e129] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=data-science-solutions
+                  - generic [ref=f26e130] [cursor=pointer]
+              - listitem [ref=f26e133]:
+                - generic [ref=f26e134]:
+                  - link "Deploying AI" [ref=f26e135] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=deploying-ai
+                  - generic [ref=f26e136] [cursor=pointer]
+              - listitem [ref=f26e139]:
+                - generic [ref=f26e140]:
+                  - link "Governing AI" [ref=f26e141] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=governing-ai
+                  - generic [ref=f26e142] [cursor=pointer]
+              - listitem [ref=f26e145]:
+                - generic [ref=f26e146]:
+                  - link "Administration" [ref=f26e147] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=administration
+                  - generic [ref=f26e148] [cursor=pointer]
+              - listitem [ref=f26e151]:
+                - link "Glossary" [ref=f26e153] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=glossary
+        - link "Announcements & sales manuals" [ref=f26e155] [cursor=pointer]:
+          - /url: /docs/en/watsonx/saas?announcement=watsonx-prem-cloud
+      - complementary "Download PDF" [ref=f26e159]:
+        - link "Download PDF" [ref=f26e162] [cursor=pointer]:
+          - /url: /docs/en/SSYOK8/pdf/watsonx-saas-documentation.pdf
+    - main [ref=f26e166]:
+      - link "Get hands-on experience with IBM tech Join one of the largest technical IBM community gatherings! Dismiss TechXchange banner" [ref=f26e167] [cursor=pointer]:
+        - /url: https://www.ibm.com/events/techxchange
+        - generic [ref=f26e168]: Get hands-on experience with IBM tech
+        - generic [ref=f26e169]: Join one of the largest technical IBM community gatherings!
+        - generic [ref=f26e170]: →
+        - button "Dismiss TechXchange banner" [ref=f26e171]
+      - generic [ref=f26e174]:
+        - generic: / / /
+        - generic [ref=f26e176]:
+          - generic [ref=f26e177]:
+            - generic [ref=f26e178]: Was this topic helpful?
+            - complementary "Topic rating buttons" [ref=f26e179]:
+              - generic [ref=f26e180]:
+                - button "positive feedback" [ref=f26e182] [cursor=pointer]
+                - tooltip
+              - generic [ref=f26e185]:
+                - button "negative feedback" [ref=f26e187] [cursor=pointer]
+                - tooltip
+          - complementary "Positive feedback module"
+          - complementary "Negative feedback module"
+          - complementary "provide more feedback"
+      - navigation "Back to top"

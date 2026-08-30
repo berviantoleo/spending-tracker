@@ -1,0 +1,142 @@
+# Deploy Server — runs on every push to main.
+# Builds the Docker image, pushes it to ECR, then forces a new ECS deployment.
+#
+# Required GitHub Actions secrets (Settings → Secrets → Actions):
+#   AWS_ACCESS_KEY_ID       — IAM user key with ECR push + ECS update permissions
+#   AWS_SECRET_ACCESS_KEY   — IAM user secret
+#
+# Required GitHub Actions variables (Settings → Variables → Actions):
+#   AWS_REGION              — e.g. ap-southeast-1
+#   ECR_REPOSITORY_URL      — from `terraform output -raw ecr_repository_url`
+#   ECS_CLUSTER_NAME        — from `terraform output -raw ecs_cluster_name`
+#   ECS_SERVICE_NAME        — from `terraform output -raw ecs_service_name`
+
+name: Deploy Server
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      # Only run when server source, the Dockerfile, or dependencies change
+      - "server/**"
+      - "Dockerfile"
+      - ".dockerignore"
+      - "tsconfig.base.json"
+      - "package.json"
+      - "package-lock.json"
+
+concurrency:
+  group: deploy-server
+  cancel-in-progress: false   # never cancel an in-flight deployment
+
+env:
+  AWS_REGION:         ${{ vars.AWS_REGION }}
+  ECR_REPOSITORY_URL: ${{ vars.ECR_REPOSITORY_URL }}
+  ECS_CLUSTER_NAME:   ${{ vars.ECS_CLUSTER_NAME }}
+  ECS_SERVICE_NAME:   ${{ vars.ECS_SERVICE_NAME }}
+
+jobs:
+  deploy:
+    name: Build → Push → Deploy
+    runs-on: ubuntu-latest
+
+    # Inherit the environment's deployment protection rules if you have them
+    # environment: production
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── CI gate — fail fast if typechecks break ───────────────────────────
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck server
+        working-directory: server
+        run: npx tsc --noEmit
+
+      # ── AWS credentials ───────────────────────────────────────────────────
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region:            ${{ env.AWS_REGION }}
+
+      # ── ECR login ─────────────────────────────────────────────────────────
+
+      - name: Log in to Amazon ECR
+        id: ecr-login
+        uses: aws-actions/amazon-ecr-login@v2
+
+      # ── Docker build & push ───────────────────────────────────────────────
+
+      - name: Set image tag
+        id: image-tag
+        # Tag with short SHA so every push is uniquely identifiable;
+        # also tag as latest for the ECS task definition default.
+        run: |
+          SHORT_SHA=${GITHUB_SHA::8}
+          echo "tag=$SHORT_SHA" >> "$GITHUB_OUTPUT"
+          echo "full=${{ env.ECR_REPOSITORY_URL }}:$SHORT_SHA" >> "$GITHUB_OUTPUT"
+          echo "latest=${{ env.ECR_REPOSITORY_URL }}:latest" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ steps.image-tag.outputs.full }}
+            ${{ steps.image-tag.outputs.latest }}
+          # GitHub Actions cache speeds up subsequent builds significantly
+          cache-from: type=gha
+          cache-to:   type=gha,mode=max
+          provenance: false   # keeps the image manifest simple for ECS
+
+      # ── ECS force-new-deployment ──────────────────────────────────────────
+
+      - name: Deploy to ECS
+        run: |
+          aws ecs update-service \
+            --cluster "${{ env.ECS_CLUSTER_NAME }}" \
+            --service "${{ env.ECS_SERVICE_NAME }}" \
+            --force-new-deployment \
+            --region "${{ env.AWS_REGION }}" \
+            --output json | jq -r '.service.deployments[] | "\(.status): \(.runningCount)/\(.desiredCount) tasks"'
+
+      - name: Wait for ECS deployment to stabilise
+        run: |
+          echo "Waiting for service to reach steady state..."
+          aws ecs wait services-stable \
+            --cluster "${{ env.ECS_CLUSTER_NAME }}" \
+            --services "${{ env.ECS_SERVICE_NAME }}" \
+            --region "${{ env.AWS_REGION }}"
+          echo "✅ ECS service is stable."
+
+      # ── Deployment summary ────────────────────────────────────────────────
+
+      - name: Print deployment summary
+        if: always()
+        run: |
+          echo "### Server Deployment Summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Field | Value |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---|" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Image tag | \`${{ steps.image-tag.outputs.tag }}\` |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| ECR image | \`${{ steps.image-tag.outputs.full }}\` |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| ECS cluster | \`${{ env.ECS_CLUSTER_NAME }}\` |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| ECS service | \`${{ env.ECS_SERVICE_NAME }}\` |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Region | \`${{ env.AWS_REGION }}\` |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Commit | \`${{ github.sha }}\` |" >> "$GITHUB_STEP_SUMMARY"

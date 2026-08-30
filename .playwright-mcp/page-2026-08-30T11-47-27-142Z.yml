@@ -1,0 +1,1571 @@
+- generic [ref=f97e7]:
+  - banner [ref=f97e8]:
+    - generic [ref=f97e13]:
+      - generic:
+        - navigation "Skip to content":
+          - link "Skip to content" [ref=f97e14] [cursor=pointer]:
+            - /url: "#main-content"
+        - link "IBM logo" [ref=f97e17] [cursor=pointer]:
+          - /url: https://www.ibm.com/
+      - generic [ref=f97e23]:
+        - link "Documentation" [ref=f97e26] [cursor=pointer]:
+          - /url: https://www.ibm.com/docs/en
+        - generic [ref=f97e27]:
+          - search [ref=f97e28]:
+            - combobox "IBM search field" [expanded] [ref=f97e29]:
+              - textbox "IBM search field" [ref=f97e30]:
+                - /placeholder: Search in IBM watsonx as a Service
+              - generic:
+                - listbox "suggestions-list"
+          - generic [ref=f97e31]:
+            - button "Search all of IBM" [ref=f97e32] [cursor=pointer]
+            - button "Clear input" [ref=f97e35] [cursor=pointer]
+      - generic [ref=f97e39]:
+        - button "User profile" [ref=f97e40] [cursor=pointer]
+        - generic: My IBM
+        - generic: Log in
+    - complementary "Dark mode button":
+      - generic [ref=f97e43]:
+        - button "Dark mode" [ref=f97e45] [cursor=pointer]
+        - tooltip
+  - generic [ref=f97e48]:
+    - generic [ref=f97e50]:
+      - generic [ref=f97e51]:
+        - navigation "TOC version selector" [ref=f97e52]:
+          - generic [ref=f97e53]:
+            - generic [ref=f97e54]: IBM watsonx
+            - generic [ref=f97e56]:
+              - button "Close table of contents" [ref=f97e58] [cursor=pointer]
+              - tooltip
+          - generic [ref=f97e61]: Change version
+          - complementary "Check full TOC" [ref=f97e62]:
+            - generic [ref=f97e64]:
+              - generic [ref=f97e65]: Select
+              - combobox "Change version" [ref=f97e67] [cursor=pointer]:
+                - option "SaaS" [selected]
+                - option "IBM watsonx.data"
+                - option "IBM watsonx.ai and watsonx.governance"
+                - option "IBM watsonx Orchestrate"
+                - option "IBM watsonx Assistant for Z"
+                - option "IBM watsonx Code Assistant for Z"
+                - option "IBM watsonx.data intelligence and watsonx.data integration"
+        - complementary "Show full table of contents" [ref=f97e68]:
+          - generic [ref=f97e69]:
+            - checkbox "Show full table of contents" [checked] [ref=f97e70]
+            - generic [ref=f97e71] [cursor=pointer]: Show full table of contents
+        - search "Filter on titles" [ref=f97e74]:
+          - searchbox "Filter on titles" [ref=f97e76]
+      - navigation "TOC navigation" [ref=f97e77]:
+        - list [ref=f97e78]:
+          - listitem [ref=f97e79]:
+            - list [ref=f97e80]:
+              - listitem [ref=f97e81]:
+                - link "Documentation home" [ref=f97e83] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=documentation-home
+              - listitem [ref=f97e84]:
+                - generic [ref=f97e85]:
+                  - link "Overview of IBM watsonx" [ref=f97e86] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=overview-watsonx
+                  - generic [ref=f97e87] [cursor=pointer]
+              - listitem [ref=f97e90]:
+                - generic [ref=f97e91]:
+                  - link "Developer Hub" [ref=f97e92] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=developer-hub
+                  - generic [ref=f97e93] [cursor=pointer]
+              - listitem [ref=f97e96]:
+                - generic [ref=f97e97]:
+                  - link "Planning an AI solution" [ref=f97e98] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=planning-ai-solution
+                  - generic [ref=f97e99] [cursor=pointer]
+              - listitem [ref=f97e102]:
+                - generic [ref=f97e103]:
+                  - link "Getting started and tutorials" [ref=f97e104] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=getting-started-tutorials
+                  - generic [ref=f97e105] [cursor=pointer]
+              - listitem [ref=f97e108]:
+                - generic [ref=f97e109]:
+                  - link "Gen AI solutions" [expanded] [ref=f97e110] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=gen-ai-solutions
+                  - generic [ref=f97e111] [cursor=pointer]
+                - list [ref=f97e115]:
+                  - listitem [ref=f97e116]:
+                    - link "Terms of use" [ref=f97e118] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=solutions-terms-use
+                  - listitem [ref=f97e119]:
+                    - link "Tokens" [ref=f97e121] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=solutions-tokens
+                  - listitem [ref=f97e122]:
+                    - generic [ref=f97e123]:
+                      - link "Supported foundation models" [expanded] [ref=f97e124] [cursor=pointer]:
+                        - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models
+                      - generic [ref=f97e125] [cursor=pointer]
+                    - list [ref=f97e129]:
+                      - listitem [ref=f97e130]:
+                        - generic [ref=f97e131]:
+                          - link "IBM foundation models" [ref=f97e132] [cursor=pointer]:
+                            - /url: /docs/en/watsonx/saas?topic=models-foundation
+                          - generic [ref=f97e133] [cursor=pointer]
+                      - listitem [ref=f97e136]:
+                        - link "Third-party foundation models" [ref=f97e138] [cursor=pointer]:
+                          - /url: /docs/en/watsonx/saas?topic=models-third-party-foundation
+                      - listitem [ref=f97e139]:
+                        - generic [ref=f97e140]:
+                          - link "Supported encoder models" [ref=f97e141] [cursor=pointer]:
+                            - /url: /docs/en/watsonx/saas?topic=models-supported-encoder
+                          - generic [ref=f97e142] [cursor=pointer]
+                      - listitem [ref=f97e145]:
+                        - link "Model gateway (preview)" [ref=f97e147] [cursor=pointer]:
+                          - /url: /docs/en/watsonx/saas?topic=models-model-gateway-preview
+                      - listitem [ref=f97e148]:
+                        - generic [ref=f97e149]:
+                          - link "Choosing a model" [ref=f97e150] [cursor=pointer]:
+                            - /url: /docs/en/watsonx/saas?topic=models-choosing-model
+                          - generic [ref=f97e151] [cursor=pointer]
+                      - listitem [ref=f97e154]:
+                        - generic [ref=f97e155]:
+                          - link "Get model information with code" [ref=f97e156] [cursor=pointer]:
+                            - /url: /docs/en/watsonx/saas?topic=models-get-model-information-code
+                          - generic [ref=f97e157] [cursor=pointer]
+                  - listitem [ref=f97e160]:
+                    - generic [ref=f97e161]:
+                      - link "Building prompts" [ref=f97e162] [cursor=pointer]:
+                        - /url: /docs/en/watsonx/saas?topic=solutions-building-prompts
+                      - generic [ref=f97e163] [cursor=pointer]
+                  - listitem [ref=f97e166]:
+                    - generic [ref=f97e167]:
+                      - link "AI agents" [ref=f97e168] [cursor=pointer]:
+                        - /url: /docs/en/watsonx/saas?topic=solutions-ai-agents
+                      - generic [ref=f97e169] [cursor=pointer]
+                  - listitem [ref=f97e172]:
+                    - generic [ref=f97e173]:
+                      - link "Coding generative AI solutions" [ref=f97e174] [cursor=pointer]:
+                        - /url: /docs/en/watsonx/saas?topic=solutions-coding-generative-ai
+                      - generic [ref=f97e175] [cursor=pointer]
+                  - listitem [ref=f97e178]:
+                    - link "Forecast future values" [ref=f97e180] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=solutions-forecast-future-values
+                  - listitem [ref=f97e181]:
+                    - generic [ref=f97e182]:
+                      - link "Retrieval-augmented generation" [ref=f97e183] [cursor=pointer]:
+                        - /url: /docs/en/watsonx/saas?topic=solutions-retrieval-augmented-generation
+                      - generic [ref=f97e184] [cursor=pointer]
+                  - listitem [ref=f97e187]:
+                    - generic [ref=f97e188]:
+                      - link "Tuning models" [ref=f97e189] [cursor=pointer]:
+                        - /url: /docs/en/watsonx/saas?topic=solutions-tuning-models
+                      - generic [ref=f97e190] [cursor=pointer]
+              - listitem [ref=f97e193]:
+                - generic [ref=f97e194]:
+                  - link "Projects" [ref=f97e195] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=projects
+                  - generic [ref=f97e196] [cursor=pointer]
+              - listitem [ref=f97e199]:
+                - generic [ref=f97e200]:
+                  - link "Deployment spaces" [ref=f97e201] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=deployment-spaces
+                  - generic [ref=f97e202] [cursor=pointer]
+              - listitem [ref=f97e205]:
+                - generic [ref=f97e206]:
+                  - link "Preparing data" [ref=f97e207] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=preparing-data
+                  - generic [ref=f97e208] [cursor=pointer]
+              - listitem [ref=f97e211]:
+                - generic [ref=f97e212]:
+                  - link "Data science solutions" [ref=f97e213] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=data-science-solutions
+                  - generic [ref=f97e214] [cursor=pointer]
+              - listitem [ref=f97e217]:
+                - generic [ref=f97e218]:
+                  - link "Deploying AI" [ref=f97e219] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=deploying-ai
+                  - generic [ref=f97e220] [cursor=pointer]
+              - listitem [ref=f97e223]:
+                - generic [ref=f97e224]:
+                  - link "Governing AI" [ref=f97e225] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=governing-ai
+                  - generic [ref=f97e226] [cursor=pointer]
+              - listitem [ref=f97e229]:
+                - generic [ref=f97e230]:
+                  - link "Administration" [ref=f97e231] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=administration
+                  - generic [ref=f97e232] [cursor=pointer]
+              - listitem [ref=f97e235]:
+                - link "Glossary" [ref=f97e237] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=glossary
+        - generic [ref=f97e238]:
+          - link "Announcements & sales manuals" [disabled]:
+            - /url: /
+      - complementary "Download PDF" [ref=f97e239]:
+        - link "Download PDF" [ref=f97e242] [cursor=pointer]:
+          - /url: /docs/en/SSYOK8/pdf/watsonx-saas-documentation.pdf
+    - main [ref=f97e246]:
+      - link "Get hands-on experience with IBM tech Join one of the largest technical IBM community gatherings! Dismiss TechXchange banner" [ref=f97e247] [cursor=pointer]:
+        - /url: https://www.ibm.com/events/techxchange
+        - generic [ref=f97e248]: Get hands-on experience with IBM tech
+        - generic [ref=f97e249]: Join one of the largest technical IBM community gatherings!
+        - generic [ref=f97e250]: →
+        - button "Dismiss TechXchange banner" [ref=f97e251]
+      - generic [ref=f97e254]:
+        - generic: / / /
+        - generic [ref=f97e256]:
+          - generic [ref=f97e257]:
+            - generic [ref=f97e258]: Was this topic helpful?
+            - complementary "Topic rating buttons" [ref=f97e259]:
+              - generic [ref=f97e260]:
+                - button "positive feedback" [ref=f97e262] [cursor=pointer]
+                - tooltip
+              - generic [ref=f97e265]:
+                - button "negative feedback" [ref=f97e267] [cursor=pointer]
+                - tooltip
+          - complementary "Positive feedback module"
+          - complementary "Negative feedback module"
+          - complementary "provide more feedback"
+      - article [ref=f97e274]:
+        - generic [ref=f97e275]:
+          - heading "Supported foundation models in watsonx.ai" [level=1] [ref=f97e276]
+          - generic [ref=f97e277]:
+            - generic [ref=f97e278]: Last Updated
+            - text: ": 2026-08-13"
+          - paragraph [ref=f97e279]: You can work with third-party and IBM foundation models in IBM watsonx.ai.You can use foundation models that are provided by IBM and are ready to use immediately, or deploy foundation models on-demand to use exclusively for your organization.
+          - generic [ref=f97e280]:
+            - heading [level=2] [ref=f97e281]:
+              - text: How to choose a model
+              - link "Copy link to clipboard" [ref=f97e282] [cursor=pointer]:
+                - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#how-to-choose-a-model
+            - paragraph [ref=f97e286]:
+              - text: To review factors that can help you to choose a model, such as supported tasks and languages, see
+              - link "Choosing a model" [ref=f97e287] [cursor=pointer]:
+                - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-model-choose.html
+              - text: and
+              - link "Foundation model benchmarks" [ref=f97e288] [cursor=pointer]:
+                - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-model-benchmarks.html
+              - text: .
+            - paragraph [ref=f97e289]:
+              - text: For more information about the foundation models provided with watsonx.ai for embedding and reranking text, see
+              - link "Supported encoder models" [ref=f97e290] [cursor=pointer]:
+                - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-embed.html
+              - text: .
+          - generic [ref=f97e291]:
+            - heading [level=2] [ref=f97e292]:
+              - text: Accessing models from other providers through the model gateway
+              - link "Copy link to clipboard" [ref=f97e293] [cursor=pointer]:
+                - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#model-gateway
+            - paragraph [ref=f97e297]: You can securely access and interact with foundation models from multiple model providers through the model gateway. The model gateway provides an OpenAI-compatible API that routes requests to these foundation models. Use the model gateway to efficiently switch between multiple model providers by routing and formatting requests through a unified interface. You can build and deploy AI agents, RAG patterns, and more by using these models.
+            - paragraph [ref=f97e298]:
+              - text: For more information, see
+              - link "Model gateway" [ref=f97e299] [cursor=pointer]:
+                - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-model-gateway-overview.html
+              - text: .
+            - generic [ref=f97e306]:
+              - text: "Attention:"
+              - paragraph [ref=f97e308]:
+                - text: Foundation model availability varies by data center location. For details, see
+                - link "Regional availability of foundation models" [ref=f97e309] [cursor=pointer]:
+                  - /url: /docs/en/SSYOK8/wsj/getting-started/regional-datactr.html#data-centers
+                - text: .
+            - paragraph
+          - generic [ref=f97e310]:
+            - heading [level=2] [ref=f97e311]:
+              - text: Foundation models by deployment method
+              - link "Copy link to clipboard" [ref=f97e312] [cursor=pointer]:
+                - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#summary-deploy
+            - paragraph [ref=f97e316]:
+              - text: Depending on the deployment method, you can use foundation models on multitenant hardware directly or deploy models on dedicated hardware for use by your organization. To learn more about the various ways you can use to deploy models, see
+              - link "Foundation model deployment methods" [ref=f97e317] [cursor=pointer]:
+                - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-model-deployment-methods.html
+              - text: .
+            - table [ref=f97e320]:
+              - caption [ref=f97e321]: Table 1. Foundation models by deployment method
+              - rowgroup [ref=f97e322]:
+                - row [ref=f97e323]:
+                  - columnheader "Provider" [ref=f97e324]
+                  - columnheader [ref=f97e326]:
+                    - generic [ref=f97e327]: Provided with watsonx.ai(Pay per token)
+                  - columnheader [ref=f97e328]:
+                    - generic [ref=f97e329]: Deploy on demand(Pay by the hour)
+              - rowgroup [ref=f97e330]:
+                - row [ref=f97e331]:
+                  - cell "IBM" [ref=f97e332]
+                  - cell "• granite-4-h-small • granite-guardian-3-8b Deprecated • granite-3-8b-base • granite-8b-code-instruct Deprecated" [ref=f97e333]:
+                    - text: •
+                    - link "granite-4-h-small" [ref=f97e334] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - text: •
+                    - link "granite-guardian-3-8b" [ref=f97e335] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-guardian-3-8b
+                    - generic [ref=f97e336]: Deprecated
+                    - text: •
+                    - link "granite-3-8b-base" [ref=f97e338] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-3-8b-base
+                    - text: •
+                    - link "granite-8b-code-instruct" [ref=f97e339] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - generic [ref=f97e340]: Deprecated
+                  - cell [ref=f97e342]:
+                    - text: •
+                    - link "granite-4-1-3b" [ref=f97e343] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - text: •
+                    - link "granite-4-1-8b" [ref=f97e344] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - text: •
+                    - link "granite-4-1-30b" [ref=f97e345] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - text: •
+                    - link "granite-vision-4-1-4b" [ref=f97e346] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - text: •
+                    - link "granite-4-h-small" [ref=f97e347] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - text: •
+                    - link "granite-4-h-tiny" [ref=f97e348] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - text: •
+                    - link "granite-4-h-micro" [ref=f97e349] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - text: •
+                    - link "granite-vision-3-3-2b" [ref=f97e350] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-vision-3-3-2b
+                    - text: •
+                    - link "granite-3-3-2b-instruct" [ref=f97e351] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-instruct-3-3-models
+                    - text: •
+                    - link "granite-3-2-8b-instruct" [ref=f97e352] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-3-2-8b-instruct
+                    - text: •
+                    - link "granite-3-1-8b-instruct" [ref=f97e353] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html
+                    - text: •
+                    - link "granite-3-1-8b-base" [ref=f97e354] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-3-8b-base
+                    - text: •
+                    - link "granite-7b-lab" [ref=f97e355] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-7b-lab
+                    - text: •
+                    - link "granite-8b-japanese" [ref=f97e356] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-8b-japanese
+                    - text: •
+                    - link "granite-13b-chat-v2" [ref=f97e357] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-13b-chat
+                    - text: •
+                    - link "granite-20b-multilingual" [ref=f97e358] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-20b-multilingual
+                    - text: •
+                    - link "granite-3b-code-instruct" [ref=f97e359] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - text: •
+                    - link "granite-8b-code-instruct" [ref=f97e360] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - text: •
+                    - link "granite-20b-code-instruct" [ref=f97e361] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - text: •
+                    - link "granite-34b-code-instruct" [ref=f97e362] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - text: •
+                    - link "granite-20b-code-base-schema-linking" [ref=f97e363] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-models
+                    - text: •
+                    - link "granite-20b-code-base-sql-gen" [ref=f97e364] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-models
+                - row [ref=f97e365]:
+                  - cell "Meta" [ref=f97e366]
+                  - cell "• llama-4-maverick-17b-128e-instruct-fp8 • llama-3-3-70b-instruct • llama-3-2-11b-vision-instruct Deprecated • llama-guard-3-11b-vision-instruct" [ref=f97e367]:
+                    - text: •
+                    - link "llama-4-maverick-17b-128e-instruct-fp8" [ref=f97e368] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-4
+                    - text: •
+                    - link "llama-3-3-70b-instruct" [ref=f97e369] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-3
+                    - text: •
+                    - link "llama-3-2-11b-vision-instruct" [ref=f97e370] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-2-vision
+                    - generic [ref=f97e371]: Deprecated
+                    - text: •
+                    - link "llama-guard-3-11b-vision-instruct" [ref=f97e373] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-2-guard
+                  - cell [ref=f97e374]:
+                    - text: •
+                    - link "llama-4-scout-17b-16e-instruct-fp8-dynamic" [ref=f97e375] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-4
+                    - text: •
+                    - link "llama-3-2-90b-vision-instruct" [ref=f97e376] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-2-vision
+                    - text: •
+                    - link "llama-3-1-405b-instruct-fp8" [ref=f97e377] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1-instruct
+                    - text: •
+                    - link "llama-4-maverick-17b-128e-instruct-int4" [ref=f97e378] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-4
+                    - text: •
+                    - link "llama-4-maverick-17b-128e-instruct-fp8" [ref=f97e379] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-4
+                    - text: •
+                    - link "llama-3-1-70b-gptq" [ref=f97e380] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1-instruct
+                    - text: •
+                    - link "llama-3-1-70b" [ref=f97e381] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1
+                    - text: •
+                    - link "llama-3-2-11b-vision-instruct" [ref=f97e382] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-2-vision
+                    - text: •
+                    - link "llama-3-3-70b-instruct" [ref=f97e383] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-3
+                    - text: •
+                    - link "llama-3-3-70b-instruct-hf" [ref=f97e384] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-3
+                    - text: •
+                    - link "llama-3-1-70b-instruct" [ref=f97e385] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1-instruct
+                    - text: •
+                    - link "llama-2-70b-chat" [ref=f97e386] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-2
+                    - text: •
+                    - link "llama-3-8b-instruct" [ref=f97e387] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3
+                    - text: •
+                    - link "llama-3-70b-instruct" [ref=f97e388] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3
+                    - text: •
+                    - link "llama-3-1-8b" [ref=f97e389] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1
+                    - text: •
+                    - link "llama-3-1-8b-instruct" [ref=f97e390] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1-instruct
+                - row [ref=f97e391]:
+                  - cell "Mistral AI" [ref=f97e392]
+                  - cell "• mistral-large-2512 Deprecated • mistral-medium-2505 Deprecated" [ref=f97e393]:
+                    - text: •
+                    - link "mistral-large-2512" [ref=f97e394] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-large-2512
+                    - generic [ref=f97e395]: Deprecated
+                    - text: •
+                    - link "mistral-medium-2505" [ref=f97e397] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-medium
+                    - generic [ref=f97e398]: Deprecated
+                  - cell [ref=f97e400]:
+                    - text: • devstral-small-2512 • ministral-14b-instruct-2512 • devstral-medium-2507 • devstral-small-2507 •
+                    - link "ministral-3b-instruct-2512" [ref=f97e401] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#ministral-3
+                    - text: •
+                    - link "ministral-8b-instruct-2512" [ref=f97e402] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#ministral-3
+                    - text: •
+                    - link "mistral-large-2512" [ref=f97e403] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-large-2512
+                    - text: •
+                    - link "mistral-small-3-2-24b-instruct-2506" [ref=f97e404] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-small-3-2-24b-instruct-2506
+                    - text: •
+                    - link "mistral-medium-2508" [ref=f97e405] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-medium
+                    - text: •
+                    - link "mistral-medium-2505" [ref=f97e406] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-medium
+                    - text: •
+                    - link "mistral-small-3-1-24b-instruct-2503" [ref=f97e407] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-small-3-1-24b-instruct-2503
+                    - text: •
+                    - link "codestral-2501" [ref=f97e408] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#codestral-2501
+                    - text: •
+                    - link "ministral-8b-instruct-2410" [ref=f97e409] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#ministral-8b-instruct-2410
+                    - text: •
+                    - link "mistral-large-instruct-2407" [ref=f97e410] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-large
+                    - text: •
+                    - link "mistral-large-instruct-2411" [ref=f97e411] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-large-instruct-2411
+                    - text: •
+                    - link "mistral-nemo-instruct-2407" [ref=f97e412] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-nemo-instruct-2407
+                    - text: •
+                    - link "mixtral-8x7b-base" [ref=f97e413] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mixtral-8x7b-base
+                    - text: •
+                    - link "mixtral-8x7b-instruct-v01" [ref=f97e414] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mixtral-8x7b-instruct-v01
+                    - text: •
+                    - link "pixtral-12b" [ref=f97e415] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#pixtral-12b
+                - row [ref=f97e416]:
+                  - cell "BigScience" [ref=f97e417]
+                  - cell [ref=f97e418]
+                  - cell [ref=f97e419]:
+                    - text: •
+                    - link "mt0-xxl-13b" [ref=f97e420] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mt0-xxl-13b
+                - row [ref=f97e421]:
+                  - cell "Code Llama" [ref=f97e422]
+                  - cell [ref=f97e423]
+                  - cell [ref=f97e424]:
+                    - text: •
+                    - link "codellama-34b-instruct-hf" [ref=f97e425] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#codellama-34b-instruct-hf
+                - row [ref=f97e426]:
+                  - cell "DeepSeek AI" [ref=f97e427]
+                  - cell [ref=f97e428]
+                  - cell [ref=f97e429]:
+                    - text: •
+                    - link "deepseek-r1-distill-llama-8b" [ref=f97e430] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#deepseek-r1-distill
+                    - text: •
+                    - link "deepseek-r1-distill-llama-70b" [ref=f97e431] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#deepseek-r1-distill
+                - row [ref=f97e432]:
+                  - cell "Unified Transcription and Translation for Extended Reality (UTTER) project" [ref=f97e433]
+                  - cell [ref=f97e434]
+                  - cell [ref=f97e435]:
+                    - text: •
+                    - link "eurollm-1-7b-instruct" [ref=f97e436] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#eurollm-instruct
+                    - text: •
+                    - link "eurollm-9b-instruct" [ref=f97e437] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#eurollm-instruct
+                - row [ref=f97e438]:
+                  - cell "LumiOpen" [ref=f97e439]
+                  - cell [ref=f97e440]
+                  - cell [ref=f97e441]:
+                    - text: •
+                    - link "poro-34b-chat" [ref=f97e442] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#poro-34b-chat
+                - row [ref=f97e443]:
+                  - cell "OpenAI" [ref=f97e444]
+                  - cell [ref=f97e445]:
+                    - text: •
+                    - link "gpt-oss-120b" [ref=f97e446] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#gpt-oss
+                  - cell [ref=f97e447]:
+                    - text: •
+                    - link "gpt-oss-20b" [ref=f97e448] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#gpt-oss
+                    - text: •
+                    - link "gpt-oss-120b" [ref=f97e449] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#gpt-oss
+                - row [ref=f97e450]:
+                  - cell "NVIDIA" [ref=f97e451]
+                  - cell [ref=f97e452]
+                  - cell "• llama-3-1-nemotron-ultra-253b-v1-fp8 • nvidia-nemotron-3-super-120b-a12b-fp8 • nvidia-nemotron-nano-12b-v2-vl-fp8" [ref=f97e453]
+          - generic [ref=f97e454]:
+            - heading [level=2] [ref=f97e455]:
+              - text: Provided foundation models that are ready to use
+              - link "Copy link to clipboard" [ref=f97e456] [cursor=pointer]:
+                - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#provided
+            - paragraph [ref=f97e460]: A collection of open source and IBM foundation models are deployed in IBM watsonx.ai. You can prompt these foundation models in the Prompt Lab or programmatically.
+            - paragraph [ref=f97e461]:
+              - text: For details on metering for foundation model inference in watsonx.ai, see
+              - link "Billing rates for inferencing foundation models" [ref=f97e462] [cursor=pointer]:
+                - /url: /docs/en/SSYOK8/wsj/getting-started/wxai-runtime-plans-genai.html#ru-tokens
+              - text: ". For more information about the IBM watsonx.ai service description with various cloud providers, see:"
+            - list [ref=f97e463]:
+              - listitem [ref=f97e464]:
+                - text: –
+                - paragraph [ref=f97e465]:
+                  - link "watsonx.ai service description on IBM Cloud" [ref=f97e466] [cursor=pointer]:
+                    - /url: https://www.ibm.com/support/customer/csol/terms/?id=i126-6883
+              - listitem [ref=f97e467]:
+                - text: –
+                - paragraph [ref=f97e468]:
+                  - link "watsonx.ai service description on AWS" [ref=f97e469] [cursor=pointer]:
+                    - /url: https://www.ibm.com/support/customer/csol/terms/?id=i127-9067
+            - paragraph [ref=f97e470]: "You can work with the following types of provided foundation models:"
+            - list [ref=f97e471]:
+              - listitem [ref=f97e472]:
+                - text: –
+                - link "IBM foundation models" [ref=f97e473] [cursor=pointer]:
+                  - /url: "#ibm-provided"
+              - listitem [ref=f97e474]:
+                - text: –
+                - link "Third-party foundation models" [ref=f97e475] [cursor=pointer]:
+                  - /url: "#third-party-provided"
+            - generic [ref=f97e476]:
+              - heading [level=3] [ref=f97e477]:
+                - text: IBM foundation models
+                - link "Copy link to clipboard" [ref=f97e478] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#ibm-provided
+              - paragraph [ref=f97e482]: The following table lists the supported IBM foundation models that IBM provides for inferencing.
+              - paragraph [ref=f97e483]:
+                - text: You can also access some IBM foundation models from third-party repositories, such as Hugging Face. IBM foundation models that you obtain from a third-party repository are not indemnified by IBM. Only IBM foundation models that you access from watsonx.ai are indemnified by IBM. For more information about contractual protections related to IBM indemnification, see the
+                - link "IBM Client Relationship Agreement" [ref=f97e484] [cursor=pointer]:
+                  - /url: https://www.ibm.com/support/customer/csol/terms/?id=Z126-6548&cc=us&lc=en
+                - text: .
+              - generic [ref=f97e485]: "Attention: If your watsonx region is the Dallas data center on IBM Cloud, you can follow the model card links. Otherwise, search for the model name in the Resource hub. The model might not be available in all regions or cloud platforms."
+              - table [ref=f97e494]:
+                - caption [ref=f97e495]: Table 2a. IBM foundation models provided with watsonx.ai for inferencing
+                - rowgroup [ref=f97e496]:
+                  - row [ref=f97e497]:
+                    - columnheader "Model name" [ref=f97e498]
+                    - columnheader "API model ID" [ref=f97e500]
+                    - columnheader [ref=f97e502]:
+                      - generic [ref=f97e503]: Input price(USD/1,000 tokens)
+                    - columnheader [ref=f97e504]:
+                      - generic [ref=f97e505]: Output price(USD/1,000 tokens)
+                    - columnheader [ref=f97e506]:
+                      - generic [ref=f97e507]: Context window(input + output tokens)
+                    - columnheader "More information" [ref=f97e508]
+                - rowgroup [ref=f97e510]:
+                  - row [ref=f97e511]:
+                    - cell [ref=f97e512]:
+                      - link "granite-4-h-small" [ref=f97e513] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - cell [ref=f97e514]:
+                      - code [ref=f97e515]: ibm/granite-4-h-small
+                    - cell "$0.0000636" [ref=f97e516]
+                    - cell "$0.000265" [ref=f97e517]
+                    - cell "131,072" [ref=f97e518]
+                    - cell [ref=f97e519]:
+                      - text: •
+                      - link "Model card" [ref=f97e520] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/ibm/granite-4-h-small?context=wx
+                      - text: •
+                      - link "Website" [ref=f97e521] [cursor=pointer]:
+                        - /url: https://www.ibm.com/granite/docs/models/granite
+                  - row [ref=f97e522]:
+                    - cell "granite-guardian-3-8b Deprecated" [ref=f97e523]:
+                      - link "granite-guardian-3-8b" [ref=f97e524] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-guardian-3-8b
+                      - generic [ref=f97e525]: Deprecated
+                    - cell [ref=f97e527]:
+                      - code [ref=f97e528]: ibm/granite-guardian-3-8b
+                    - cell "$0.0002" [ref=f97e529]
+                    - cell "$0.0002" [ref=f97e530]
+                    - cell "131,072" [ref=f97e531]
+                    - cell [ref=f97e532]:
+                      - text: •
+                      - link "Model card" [ref=f97e533] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/ibm/granite-guardian-3-8b?context=wx
+                      - text: •
+                      - link "Website" [ref=f97e534] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fgithub.com%2Fibm-granite%2Fgranite-guardian
+                  - row [ref=f97e535]:
+                    - cell "granite-8b-code-instruct Deprecated" [ref=f97e536]:
+                      - link "granite-8b-code-instruct" [ref=f97e537] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                      - generic [ref=f97e538]: Deprecated
+                    - cell [ref=f97e540]:
+                      - code [ref=f97e541]: ibm/granite-8b-code-instruct
+                    - cell "$0.000636" [ref=f97e542]
+                    - cell "$0.000636" [ref=f97e543]
+                    - cell "128,000" [ref=f97e544]
+                    - cell [ref=f97e545]:
+                      - text: •
+                      - link "Model card" [ref=f97e546] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/ibm/granite-8b-code-instruct?context=wx
+                      - text: •
+                      - link "Website" [ref=f97e547] [cursor=pointer]:
+                        - /url: https://www.ibm.com/granite/docs/models/code
+                      - text: •
+                      - link "Research paper" [ref=f97e548] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2405.04324
+              - paragraph [ref=f97e549]
+              - table [ref=f97e552]:
+                - caption [ref=f97e553]: Table 2b. IBM time series foundation models provided with watsonx.ai for forecasting future values
+                - rowgroup [ref=f97e554]:
+                  - row [ref=f97e555]:
+                    - columnheader "Model name" [ref=f97e556]
+                    - columnheader "API model ID" [ref=f97e558]
+                    - columnheader [ref=f97e560]:
+                      - generic [ref=f97e561]: Input price(USD/1,000 data points)
+                    - columnheader [ref=f97e562]:
+                      - generic [ref=f97e563]: Output price(USD/1,000 data points)
+                    - columnheader [ref=f97e564]:
+                      - generic [ref=f97e565]: Context lengthMin data points
+                    - columnheader "More information" [ref=f97e566]
+                - rowgroup [ref=f97e568]:
+                  - row [ref=f97e569]:
+                    - cell "granite-ttm-512-96-r2 Deprecated" [ref=f97e570]:
+                      - link "granite-ttm-512-96-r2" [ref=f97e571] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-time-series
+                      - generic [ref=f97e572]: Deprecated
+                    - cell [ref=f97e574]:
+                      - code [ref=f97e575]: ibm/granite-ttm-512-96-r2
+                    - cell "$0.0001378" [ref=f97e576]
+                    - cell "$0.0004028" [ref=f97e577]
+                    - cell "512" [ref=f97e578]
+                    - cell [ref=f97e579]:
+                      - text: •
+                      - link "Model card" [ref=f97e580] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fhuggingface.co%2Fibm-granite%2Fgranite-timeseries-ttm-r2
+                      - text: •
+                      - link "Website" [ref=f97e581] [cursor=pointer]:
+                        - /url: https://www.ibm.com/granite/docs/models/time-series/
+                      - text: •
+                      - link "Research paper" [ref=f97e582] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Farxiv.org%2Fabs%2F2401.03955
+                  - row [ref=f97e583]:
+                    - cell "granite-ttm-1024-96-r2 Deprecated" [ref=f97e584]:
+                      - link "granite-ttm-1024-96-r2" [ref=f97e585] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-time-series
+                      - generic [ref=f97e586]: Deprecated
+                    - cell [ref=f97e588]:
+                      - code [ref=f97e589]: ibm/granite-ttm-1024-96-r2
+                    - cell "$0.0001378" [ref=f97e590]
+                    - cell "$0.0004028" [ref=f97e591]
+                    - cell "1,024" [ref=f97e592]
+                    - cell [ref=f97e593]:
+                      - text: •
+                      - link "Model card" [ref=f97e594] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fhuggingface.co%2Fibm-granite%2Fgranite-timeseries-ttm-r2
+                      - text: •
+                      - link "Website" [ref=f97e595] [cursor=pointer]:
+                        - /url: https://www.ibm.com/granite/docs/models/time-series/
+                      - text: •
+                      - link "Research paper" [ref=f97e596] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Farxiv.org%2Fabs%2F2401.03955
+                  - row [ref=f97e597]:
+                    - cell "granite-ttm-1536-96-r2 Deprecated" [ref=f97e598]:
+                      - link "granite-ttm-1536-96-r2" [ref=f97e599] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-time-series
+                      - generic [ref=f97e600]: Deprecated
+                    - cell [ref=f97e602]:
+                      - code [ref=f97e603]: ibm/granite-ttm-1536-96-r2
+                    - cell "$0.0001378" [ref=f97e604]
+                    - cell "$0.0004028" [ref=f97e605]
+                    - cell "1,536" [ref=f97e606]
+                    - cell [ref=f97e607]:
+                      - text: •
+                      - link "Model card" [ref=f97e608] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fhuggingface.co%2Fibm-granite%2Fgranite-timeseries-ttm-r2
+                      - text: •
+                      - link "Website" [ref=f97e609] [cursor=pointer]:
+                        - /url: https://www.ibm.com/granite/docs/models/time-series/
+                      - text: •
+                      - link "Research paper" [ref=f97e610] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Farxiv.org%2Fabs%2F2401.03955
+              - paragraph [ref=f97e611]
+            - generic [ref=f97e612]:
+              - heading [level=3] [ref=f97e613]:
+                - text: Third-party foundation models
+                - link "Copy link to clipboard" [ref=f97e614] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#third-party-provided
+              - paragraph [ref=f97e618]: The following table lists the supported third-party foundation models that are provided with watsonx.ai.
+              - generic [ref=f97e619]: "Attention: If your watsonx region is the Dallas data center on IBM Cloud, you can follow the model card links. Otherwise, search for the model name in the Resource hub. The model might not be available in all regions or cloud platforms."
+              - table [ref=f97e628]:
+                - caption [ref=f97e629]: Table 3. Third-party foundation models supported in watsonx.ai
+                - rowgroup [ref=f97e630]:
+                  - row [ref=f97e631]:
+                    - columnheader "Model name" [ref=f97e632]
+                    - columnheader "API model ID" [ref=f97e634]
+                    - columnheader "Provider" [ref=f97e636]
+                    - columnheader [ref=f97e638]:
+                      - generic [ref=f97e639]: Input price(USD/1,000 tokens)
+                    - columnheader [ref=f97e640]:
+                      - generic [ref=f97e641]: Output price(USD/1,000 tokens)
+                    - columnheader [ref=f97e642]:
+                      - generic [ref=f97e643]: Context window(input + output tokens)
+                    - columnheader "More information" [ref=f97e644]
+                - rowgroup [ref=f97e646]:
+                  - row [ref=f97e647]:
+                    - cell [ref=f97e648]:
+                      - link "gpt-oss-120b" [ref=f97e649] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#gpt-oss
+                    - cell [ref=f97e650]:
+                      - code [ref=f97e651]: openai/gpt-oss-120b
+                    - cell "OpenAI" [ref=f97e652]
+                    - cell "$0.000159" [ref=f97e653]
+                    - cell "$0.000636" [ref=f97e654]
+                    - cell "131,072" [ref=f97e655]
+                    - cell [ref=f97e656]:
+                      - text: •
+                      - link "Model card" [ref=f97e657] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/openai/gpt-oss-120b?context=wx
+                      - text: •
+                      - link "OpenAI blog" [ref=f97e658] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-gpt-oss%2F
+                  - row [ref=f97e659]:
+                    - cell [ref=f97e660]:
+                      - link "llama-4-maverick-17b-128e-instruct-fp8" [ref=f97e661] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-4
+                    - cell [ref=f97e662]:
+                      - code [ref=f97e663]: meta-llama/llama-4-maverick-17b-128e-instruct-fp8
+                    - cell "Meta" [ref=f97e664]
+                    - cell "$0.000371" [ref=f97e665]
+                    - cell "$0.001484" [ref=f97e666]
+                    - cell "131,072" [ref=f97e667]
+                    - cell [ref=f97e668]:
+                      - text: •
+                      - link "Model card" [ref=f97e669] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/meta-llama/llama-4-maverick-17b-128e-instruct-fp8?context=wx
+                      - text: •
+                      - link "Meta AI blog" [ref=f97e670] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fai.meta.com%2Fblog%2Fllama-4-multimodal-intelligence%2F
+                  - row [ref=f97e671]:
+                    - cell [ref=f97e672]:
+                      - link "llama-3-3-70b-instruct" [ref=f97e673] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-3
+                    - cell [ref=f97e674]:
+                      - code [ref=f97e675]: meta-llama/llama-3-3-70b-instruct
+                    - cell "Meta" [ref=f97e676]
+                    - cell "$0.0007526" [ref=f97e677]
+                    - cell "$0.0007526" [ref=f97e678]
+                    - cell "131,072" [ref=f97e679]
+                    - cell [ref=f97e680]:
+                      - text: •
+                      - link "Model card" [ref=f97e681] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/meta-llama/llama-3-3-70b-instruct?context=wx
+                      - text: •
+                      - link "Meta AI blog" [ref=f97e682] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fai.meta.com%2Fblog%2F
+                  - row [ref=f97e683]:
+                    - cell "llama-3-2-11b-vision-instruct Deprecated" [ref=f97e684]:
+                      - link "llama-3-2-11b-vision-instruct" [ref=f97e685] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-2-vision
+                      - generic [ref=f97e686]: Deprecated
+                    - cell [ref=f97e688]:
+                      - code [ref=f97e689]: meta-llama/llama-3-2-11b-vision-instruct
+                    - cell "Meta" [ref=f97e690]
+                    - cell "$0.000371" [ref=f97e691]
+                    - cell "$0.000371" [ref=f97e692]
+                    - cell "131,072" [ref=f97e693]
+                    - cell [ref=f97e694]:
+                      - text: •
+                      - link "Model card" [ref=f97e695] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/meta-llama/llama-3-2-11b-vision-instruct?context=wx
+                      - text: •
+                      - link "Meta AI blog" [ref=f97e696] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fai.meta.com%2Fblog%2Fllama-3-2-connect-2024-vision-edge-mobile-devices%2F
+                      - text: •
+                      - link "Research paper" [ref=f97e697] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2407.21783
+                  - row [ref=f97e698]:
+                    - cell "llama-guard-3-11b-vision Deprecated" [ref=f97e699]:
+                      - link "llama-guard-3-11b-vision" [ref=f97e700] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-2-guard
+                      - generic [ref=f97e701]: Deprecated
+                    - cell [ref=f97e703]:
+                      - code [ref=f97e704]: meta-llama/llama-guard-3-11b-vision
+                    - cell "Meta" [ref=f97e705]
+                    - cell "$0.000371" [ref=f97e706]
+                    - cell "$0.000371" [ref=f97e707]
+                    - cell "131,072" [ref=f97e708]
+                    - cell [ref=f97e709]:
+                      - text: •
+                      - link "Model card" [ref=f97e710] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/meta-llama/llama-guard-3-11b-vision?context=wx
+                      - text: •
+                      - link "Meta AI blog" [ref=f97e711] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fai.meta.com%2Fblog%2Fllama-3-2-connect-2024-vision-edge-mobile-devices%2F
+                      - text: •
+                      - link "Research paper" [ref=f97e712] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2407.21783
+                  - row [ref=f97e713]:
+                    - cell [ref=f97e714]:
+                      - link "ministral-3b-instruct-2512" [ref=f97e715] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#ministral-3
+                    - cell [ref=f97e716]:
+                      - code [ref=f97e717]: mistralai/ministral-3b-instruct-2512
+                    - cell "Mistral AI" [ref=f97e718]
+                    - cell [ref=f97e719]
+                    - cell [ref=f97e720]
+                    - cell "256,000" [ref=f97e721]
+                    - cell [ref=f97e722]:
+                      - link "Blog post for Ministral 3" [ref=f97e723] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-3
+                  - row [ref=f97e724]:
+                    - cell "mistral-large-2512 Deprecated" [ref=f97e725]:
+                      - link "mistral-large-2512" [ref=f97e726] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-large-3
+                      - generic [ref=f97e727]: Deprecated
+                    - cell [ref=f97e729]:
+                      - code [ref=f97e730]: mistralai/mistral-large-2512
+                    - cell "Mistral AI" [ref=f97e731]
+                    - cell "$0.000636" [ref=f97e732]
+                    - cell "$0.001908" [ref=f97e733]
+                    - cell "256,000" [ref=f97e734]
+                    - cell [ref=f97e735]:
+                      - text: •
+                      - link "Model card" [ref=f97e736] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/mistral-large-2512?context=wx
+                      - text: •
+                      - link "Blog post for Mistral Large 3" [ref=f97e737] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-3
+                  - row [ref=f97e738]:
+                    - cell "mistral-medium-2505 Deprecated" [ref=f97e739]:
+                      - link "mistral-medium-2505" [ref=f97e740] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-medium
+                      - generic [ref=f97e741]: Deprecated
+                    - cell [ref=f97e743]:
+                      - code [ref=f97e744]: mistralai/mistral-medium-2505
+                    - cell "Mistral AI" [ref=f97e745]
+                    - cell "$0.00337" [ref=f97e746]
+                    - cell "$0.01007" [ref=f97e747]
+                    - cell "131,072" [ref=f97e748]
+                    - cell [ref=f97e749]:
+                      - text: •
+                      - link "Model card" [ref=f97e750] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/mistralai/mistral-medium-2505?context=wx
+                      - text: •
+                      - link "Blog post for Mistral Medium 3" [ref=f97e751] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-medium-3
+                  - row [ref=f97e752]:
+                    - cell [ref=f97e753]:
+                      - link "mistral-small-3-1-24b-instruct-2503" [ref=f97e754] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-small-3-1-24b-instruct-2503
+                    - cell [ref=f97e755]:
+                      - code [ref=f97e756]: mistralai/mistral-small-3-1-24b-instruct-2503
+                    - cell "Mistral AI" [ref=f97e757]
+                    - cell "$0.000106" [ref=f97e758]
+                    - cell "$0.000318" [ref=f97e759]
+                    - cell "131,072" [ref=f97e760]
+                    - cell [ref=f97e761]:
+                      - text: •
+                      - link "Model card" [ref=f97e762] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/mistralai/mistral-small-3-1-24b-instruct-2503?context=wx
+                      - text: •
+                      - link "Blog post for Mistral 3.1" [ref=f97e763] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-small-3-1
+                  - row [ref=f97e764]:
+                    - cell [ref=f97e765]:
+                      - link "mt0-xxl-13b" [ref=f97e766] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mt0-xxl-13b
+                    - cell [ref=f97e767]:
+                      - code [ref=f97e768]: bigscience/mt0-xxl
+                    - cell "BigScience" [ref=f97e769]
+                    - cell "$0.001908" [ref=f97e770]
+                    - cell "$0.001908" [ref=f97e771]
+                    - cell "4,096" [ref=f97e772]
+                    - cell [ref=f97e773]:
+                      - text: •
+                      - link "Model card" [ref=f97e774] [cursor=pointer]:
+                        - /url: https://dataplatform.cloud.ibm.com/wx/samples/models/bigscience/mt0-xxl?context=wx
+                      - text: •
+                      - link "Research paper" [ref=f97e775] [cursor=pointer]:
+                        - /url: https://www.ibm.com/links?url=https%3A%2F%2Farxiv.org%2Fabs%2F2211.01786
+          - generic [ref=f97e776]:
+            - heading [level=2] [ref=f97e777]:
+              - text: Deploy on demand foundation models
+              - link "Copy link to clipboard" [ref=f97e778] [cursor=pointer]:
+                - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#dod
+            - paragraph [ref=f97e782]: You can work with a foundation model from a set of IBM-curated models to deploy for the exclusive use of your organization.
+            - paragraph [ref=f97e783]: "You can choose to deploy the following foundation models on demand:"
+            - list [ref=f97e784]:
+              - listitem [ref=f97e785]:
+                - text: –
+                - link "IBM deploy on demand foundation models" [ref=f97e786] [cursor=pointer]:
+                  - /url: "#dod-ibm-provided"
+              - listitem [ref=f97e787]:
+                - text: –
+                - link "Third-party deploy on demand foundation models" [ref=f97e788] [cursor=pointer]:
+                  - /url: "#dod-third-party-provided"
+            - generic [ref=f97e795]:
+              - text: "Attention:"
+              - generic [ref=f97e796]:
+                - paragraph [ref=f97e797]:
+                  - text: Deploying models on demand by specifying the deployment configuration size is deprecated. Use GPU hardware configuration for new model deployments and to calculate the price for hosting models. For details about the model hosting environments and pricing for deploy on demand models, see
+                  - link "Billing details for generative AI assets" [ref=f97e798] [cursor=pointer]:
+                    - /url: /docs/en/SSYOK8/wsj/getting-started/wxai-runtime-plans-genai.html#cfm-dod
+                  - text: .
+                - paragraph
+            - paragraph
+            - generic [ref=f97e799]:
+              - heading [level=3] [ref=f97e800]:
+                - text: IBM deploy on demand foundation models
+                - link "Copy link to clipboard" [ref=f97e801] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#dod-ibm-provided
+              - paragraph [ref=f97e805]: The following table lists the IBM foundation models that you can deploy on demand.
+              - paragraph [ref=f97e806]:
+                - text: Some IBM foundation models are also available from third-party repositories, such as Hugging Face. IBM foundation models that you obtain from a third-party repository are not indemnified by IBM. Only IBM foundation models that you access from watsonx.ai are indemnified by IBM. For more information about contractual protections related to IBM indemnification, see the
+                - link "IBM Client Relationship Agreement" [ref=f97e807] [cursor=pointer]:
+                  - /url: https://www.ibm.com/support/customer/csol/terms/?id=Z126-6548&cc=us&lc=en
+                - text: .
+              - table [ref=f97e810]:
+                - caption [ref=f97e811]: Table 4. IBM foundation models available to deploy on demand in watsonx.ai
+                - rowgroup [ref=f97e812]:
+                  - row [ref=f97e813]:
+                    - columnheader "Model name" [ref=f97e814]
+                    - columnheader "Deployment configuration size Deprecated" [ref=f97e816]:
+                      - generic [ref=f97e817]:
+                        - text: Deployment configuration size
+                        - generic [ref=f97e818]: Deprecated
+                    - columnheader [ref=f97e820]:
+                      - generic [ref=f97e821]: Context window(input + output tokens)
+                - rowgroup [ref=f97e822]:
+                  - row [ref=f97e823]:
+                    - cell [ref=f97e824]:
+                      - link "granite-4-1-3b" [ref=f97e825] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - cell "–" [ref=f97e826]:
+                      - list:
+                        - listitem: –
+                    - cell "131,072" [ref=f97e827]
+                  - row [ref=f97e828]:
+                    - cell [ref=f97e829]:
+                      - link "granite-4-1-8b" [ref=f97e830] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - cell "–" [ref=f97e831]:
+                      - list:
+                        - listitem: –
+                    - cell "131,072" [ref=f97e832]
+                  - row [ref=f97e833]:
+                    - cell [ref=f97e834]:
+                      - link "granite-4-1-30b" [ref=f97e835] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - cell "–" [ref=f97e836]:
+                      - list:
+                        - listitem: –
+                    - cell "131,072" [ref=f97e837]
+                  - row [ref=f97e838]:
+                    - cell [ref=f97e839]:
+                      - link "granite-vision-4-1-4b" [ref=f97e840] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-4
+                    - cell "–" [ref=f97e841]:
+                      - list:
+                        - listitem: –
+                    - cell "131,072" [ref=f97e842]
+                  - row [ref=f97e843]:
+                    - cell [ref=f97e844]:
+                      - link "granite-vision-3-3-2b" [ref=f97e845] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-vision-3-3-2b
+                    - cell "–" [ref=f97e846]
+                    - cell "131,072" [ref=f97e847]
+                  - row [ref=f97e848]:
+                    - cell [ref=f97e849]:
+                      - link "granite-3-3-8b-instruct" [ref=f97e850] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-instruct-3-3-models
+                    - cell "Small" [ref=f97e851]
+                    - cell "131,072" [ref=f97e852]
+                  - row [ref=f97e853]:
+                    - cell [ref=f97e854]:
+                      - link "granite-3-3-2b-instruct" [ref=f97e855] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-instruct-3-3-models
+                    - cell "Small" [ref=f97e856]
+                    - cell "131,072" [ref=f97e857]
+                  - row [ref=f97e858]:
+                    - cell [ref=f97e859]:
+                      - link "granite-3-2-8b-instruct" [ref=f97e860] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-3-2-8b-instruct
+                    - cell "Small" [ref=f97e861]
+                    - cell "131,072" [ref=f97e862]
+                  - row [ref=f97e863]:
+                    - cell [ref=f97e864]:
+                      - link "granite-3-1-8b-base" [ref=f97e865] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-3-1-8b-base
+                    - cell "Small" [ref=f97e866]
+                    - cell "131,072" [ref=f97e867]
+                  - row [ref=f97e868]:
+                    - cell [ref=f97e869]:
+                      - link "granite-8b-japanese" [ref=f97e870] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-8b-japanese
+                    - cell "Small" [ref=f97e871]
+                    - cell "4,096" [ref=f97e872]
+                  - row [ref=f97e873]:
+                    - cell [ref=f97e874]:
+                      - link "granite-20b-multilingual" [ref=f97e875] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-20b-multilingual
+                    - cell "Small" [ref=f97e876]
+                    - cell "8,192" [ref=f97e877]
+                  - row [ref=f97e878]:
+                    - cell [ref=f97e879]:
+                      - link "granite-13b-chat-v2" [ref=f97e880] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-13b-chat
+                    - cell "Small" [ref=f97e881]
+                    - cell "8,192" [ref=f97e882]
+                  - row [ref=f97e883]:
+                    - cell [ref=f97e884]:
+                      - link "granite-3b-code-instruct" [ref=f97e885] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - cell "Small" [ref=f97e886]
+                    - cell "128,000" [ref=f97e887]
+                  - row [ref=f97e888]:
+                    - cell [ref=f97e889]:
+                      - link "granite-8b-code-instruct" [ref=f97e890] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - cell "Small" [ref=f97e891]
+                    - cell "128,000" [ref=f97e892]
+                  - row [ref=f97e893]:
+                    - cell [ref=f97e894]:
+                      - link "granite-20b-code-instruct" [ref=f97e895] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - cell "Small" [ref=f97e896]
+                    - cell "8,192" [ref=f97e897]
+                  - row [ref=f97e898]:
+                    - cell [ref=f97e899]:
+                      - link "granite-34b-code-instruct" [ref=f97e900] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-instruct-models
+                    - cell "Small" [ref=f97e901]
+                    - cell "8,192" [ref=f97e902]
+                  - row [ref=f97e903]:
+                    - cell [ref=f97e904]:
+                      - link "granite-20b-code-base-schema-linking" [ref=f97e905] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-models
+                    - cell "Small" [ref=f97e906]
+                    - cell "8,192" [ref=f97e907]
+                  - row [ref=f97e908]:
+                    - cell [ref=f97e909]:
+                      - link "granite-20b-code-base-sql-gen" [ref=f97e910] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-code-models
+                    - cell "Small" [ref=f97e911]
+                    - cell "8,192" [ref=f97e912]
+                  - row [ref=f97e913]:
+                    - cell [ref=f97e914]:
+                      - link "granite-3-8b-base" [ref=f97e915] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#granite-3-8b-base
+                    - cell "Small" [ref=f97e916]
+                    - cell "4,096" [ref=f97e917]
+              - paragraph [ref=f97e918]
+            - generic [ref=f97e919]:
+              - heading [level=3] [ref=f97e920]:
+                - text: Third-party deploy on demand foundation models
+                - link "Copy link to clipboard" [ref=f97e921] [cursor=pointer]:
+                  - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#dod-third-party-provided
+              - generic [ref=f97e930]:
+                - text: "Note:"
+                - generic [ref=f97e931]:
+                  - text: There is an hourly access fee when you deploy certain foundation models for dedicated use. The total price for hosting these deploy on demand foundation models is the sum of the access price plus the hosting price.
+                  - paragraph [ref=f97e932]: GPU hosting price per hour in USD + Access fee per hour in USD = Total price per hour in USD
+                  - paragraph [ref=f97e933]:
+                    - text: For details about GPU configuration pricing, see
+                    - link "Hourly billing costs for deploy on demand models" [ref=f97e934] [cursor=pointer]:
+                      - /url: /docs/en/SSYOK8/wsj/getting-started/wxai-runtime-plans-genai.html#cfm-dod
+                    - text: .
+              - paragraph
+              - paragraph [ref=f97e935]: The following table lists the third-party foundation models that you can deploy on demand.
+              - table [ref=f97e938]:
+                - caption [ref=f97e939]: Table 5. Third-party foundation models available to deploy on demand in watsonx.ai
+                - rowgroup [ref=f97e940]:
+                  - row [ref=f97e941]:
+                    - columnheader "Model name" [ref=f97e942]
+                    - columnheader "Provider" [ref=f97e944]
+                    - columnheader "Access fee per hour in USD" [ref=f97e946]
+                    - columnheader "Deployment configuration size Deprecated" [ref=f97e948]:
+                      - generic [ref=f97e949]:
+                        - text: Deployment configuration size
+                        - generic [ref=f97e950]: Deprecated
+                    - columnheader [ref=f97e952]:
+                      - generic [ref=f97e953]: Context window(input + output tokens)
+                - rowgroup [ref=f97e954]:
+                  - row [ref=f97e955]:
+                    - cell [ref=f97e956]:
+                      - link "allam-1-13b-instruct" [ref=f97e957] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#allam-1-13b-instruct
+                    - cell "National Center for Artificial Intelligence and Saudi Authority for Data and Artificial Intelligence" [ref=f97e958]
+                    - cell "–" [ref=f97e959]
+                    - cell "Small" [ref=f97e960]
+                    - cell "4,096" [ref=f97e961]
+                  - row [ref=f97e962]:
+                    - cell [ref=f97e963]:
+                      - link "codellama-34b-instruct-hf" [ref=f97e964] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#codellama-34b-instruct-hf
+                    - cell "Code Llama" [ref=f97e965]
+                    - cell "–" [ref=f97e966]
+                    - cell "Medium" [ref=f97e967]
+                    - cell "16,384" [ref=f97e968]
+                  - row [ref=f97e969]:
+                    - cell [ref=f97e970]:
+                      - link "deepseek-r1-distill-llama-8b" [ref=f97e971] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#deepseek-r1-distill
+                    - cell "DeepSeek AI" [ref=f97e972]
+                    - cell "–" [ref=f97e973]
+                    - cell "Small" [ref=f97e974]
+                    - cell "131,072" [ref=f97e975]
+                  - row [ref=f97e976]:
+                    - cell [ref=f97e977]:
+                      - link "deepseek-r1-distill-llama-70b" [ref=f97e978] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#deepseek-r1-distill
+                    - cell "DeepSeek AI" [ref=f97e979]
+                    - cell "–" [ref=f97e980]
+                    - cell "Large" [ref=f97e981]
+                    - cell "131,072" [ref=f97e982]
+                  - row [ref=f97e983]:
+                    - cell "devstral-small-2507" [ref=f97e984]
+                    - cell "Mistral AI" [ref=f97e985]
+                    - cell "–" [ref=f97e986]:
+                      - list:
+                        - listitem: –
+                    - cell "–" [ref=f97e987]:
+                      - list:
+                        - listitem: –
+                    - cell "128,000" [ref=f97e988]
+                  - row [ref=f97e989]:
+                    - cell "devstral-small-2512" [ref=f97e990]
+                    - cell "Mistral AI" [ref=f97e991]
+                    - cell "–" [ref=f97e992]:
+                      - list:
+                        - listitem: –
+                    - cell "–" [ref=f97e993]:
+                      - list:
+                        - listitem: –
+                    - cell "262,144" [ref=f97e994]
+                  - row [ref=f97e995]:
+                    - cell "devstral-medium-2507" [ref=f97e996]
+                    - cell "Mistral AI" [ref=f97e997]
+                    - cell "$36.40" [ref=f97e998]
+                    - cell "–" [ref=f97e999]:
+                      - list:
+                        - listitem: –
+                    - cell "128,000" [ref=f97e1000]
+                  - row [ref=f97e1001]:
+                    - cell [ref=f97e1002]:
+                      - link "eurollm-1-7b-instruct" [ref=f97e1003] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#eurollm-instruct
+                    - cell "Utter project" [ref=f97e1004]
+                    - cell "–" [ref=f97e1005]
+                    - cell "Small" [ref=f97e1006]
+                    - cell "4,096" [ref=f97e1007]
+                  - row [ref=f97e1008]:
+                    - cell [ref=f97e1009]:
+                      - link "eurollm-9b-instruct" [ref=f97e1010] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#eurollm-instruct
+                    - cell "Utter project" [ref=f97e1011]
+                    - cell "–" [ref=f97e1012]
+                    - cell "Small" [ref=f97e1013]
+                    - cell "4,096" [ref=f97e1014]
+                  - row [ref=f97e1015]:
+                    - cell [ref=f97e1016]:
+                      - link "gpt-oss-20b" [ref=f97e1017] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#gpt-oss
+                    - cell "OpenAI" [ref=f97e1018]
+                    - cell "–" [ref=f97e1019]
+                    - cell "–" [ref=f97e1020]
+                    - cell "131,072" [ref=f97e1021]
+                  - row [ref=f97e1022]:
+                    - cell [ref=f97e1023]:
+                      - link "gpt-oss-120b" [ref=f97e1024] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#gpt-oss
+                    - cell "OpenAI" [ref=f97e1025]
+                    - cell "–" [ref=f97e1026]
+                    - cell "–" [ref=f97e1027]
+                    - cell "131,072" [ref=f97e1028]
+                  - row [ref=f97e1029]:
+                    - cell [ref=f97e1030]:
+                      - link "llama-2-13b-chat" [ref=f97e1031] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-2
+                    - cell "Meta" [ref=f97e1032]
+                    - cell "–" [ref=f97e1033]
+                    - cell "Small" [ref=f97e1034]
+                    - cell "4,096" [ref=f97e1035]
+                  - row [ref=f97e1036]:
+                    - cell [ref=f97e1037]:
+                      - link "llama-2-70b-chat" [ref=f97e1038] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-2
+                    - cell "Meta" [ref=f97e1039]
+                    - cell "–" [ref=f97e1040]
+                    - cell "Large" [ref=f97e1041]
+                    - cell "4,096" [ref=f97e1042]
+                  - row [ref=f97e1043]:
+                    - cell [ref=f97e1044]:
+                      - link "llama-3-8b-instruct" [ref=f97e1045] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3
+                    - cell "Meta" [ref=f97e1046]
+                    - cell "–" [ref=f97e1047]
+                    - cell "Small" [ref=f97e1048]
+                    - cell "8,192" [ref=f97e1049]
+                  - row [ref=f97e1050]:
+                    - cell [ref=f97e1051]:
+                      - link "llama-3-70b-instruct" [ref=f97e1052] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3
+                    - cell "Meta" [ref=f97e1053]
+                    - cell "–" [ref=f97e1054]
+                    - cell "Large" [ref=f97e1055]
+                    - cell "8,192" [ref=f97e1056]
+                  - row [ref=f97e1057]:
+                    - cell "llama-3-1-nemotron-ultra-253b-v1-fp8" [ref=f97e1058]
+                    - cell "NVIDIA" [ref=f97e1059]
+                    - cell "–" [ref=f97e1060]:
+                      - list:
+                        - listitem: –
+                    - cell "–" [ref=f97e1061]:
+                      - list:
+                        - listitem: –
+                    - cell "131,072" [ref=f97e1062]
+                  - row [ref=f97e1063]:
+                    - cell [ref=f97e1064]:
+                      - link "llama-3-1-8b" [ref=f97e1065] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1
+                    - cell "Meta" [ref=f97e1066]
+                    - cell "–" [ref=f97e1067]
+                    - cell "Small" [ref=f97e1068]
+                    - cell "131,072" [ref=f97e1069]
+                  - row [ref=f97e1070]:
+                    - cell [ref=f97e1071]:
+                      - link "llama-3-1-70b" [ref=f97e1072] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1
+                    - cell "Meta" [ref=f97e1073]
+                    - cell "–" [ref=f97e1074]
+                    - cell "Large" [ref=f97e1075]
+                    - cell "131,072" [ref=f97e1076]
+                  - row [ref=f97e1077]:
+                    - cell [ref=f97e1078]:
+                      - link "llama-3-1-8b-instruct" [ref=f97e1079] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1-instruct
+                    - cell "Meta" [ref=f97e1080]
+                    - cell "–" [ref=f97e1081]
+                    - cell "Small" [ref=f97e1082]
+                    - cell "131,072" [ref=f97e1083]
+                  - row [ref=f97e1084]:
+                    - cell [ref=f97e1085]:
+                      - link "llama-3-1-70b-instruct" [ref=f97e1086] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1-instruct
+                    - cell "Meta" [ref=f97e1087]
+                    - cell "–" [ref=f97e1088]
+                    - cell "Large" [ref=f97e1089]
+                    - cell "131,072" [ref=f97e1090]
+                  - row [ref=f97e1091]:
+                    - cell [ref=f97e1092]:
+                      - link "llama-3-1-70b-gptq" [ref=f97e1093] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1-instruct
+                    - cell "Meta" [ref=f97e1094]
+                    - cell "–" [ref=f97e1095]
+                    - cell "–" [ref=f97e1096]
+                    - cell "131,072" [ref=f97e1097]
+                  - row [ref=f97e1098]:
+                    - cell [ref=f97e1099]:
+                      - link "llama-3-1-405b-instrcut-fp8" [ref=f97e1100] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-1-instruct
+                    - cell "Meta" [ref=f97e1101]
+                    - cell "–" [ref=f97e1102]
+                    - cell "–" [ref=f97e1103]
+                    - cell "131,072" [ref=f97e1104]
+                  - row [ref=f97e1105]:
+                    - cell [ref=f97e1106]:
+                      - link "llama-3-2-11b-vision-instruct" [ref=f97e1107] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-2-vision
+                    - cell "Meta" [ref=f97e1108]
+                    - cell "–" [ref=f97e1109]
+                    - cell "Small" [ref=f97e1110]
+                    - cell "131,072" [ref=f97e1111]
+                  - row [ref=f97e1112]:
+                    - cell [ref=f97e1113]:
+                      - link "llama-3-2-90b-vision-instruct" [ref=f97e1114] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-2-vision
+                    - cell "Meta" [ref=f97e1115]
+                    - cell "–" [ref=f97e1116]
+                    - cell "–" [ref=f97e1117]
+                    - cell "131,072" [ref=f97e1118]
+                  - row [ref=f97e1119]:
+                    - cell [ref=f97e1120]:
+                      - link "llama-3-3-70b-instruct" [ref=f97e1121] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-3
+                    - cell "Meta" [ref=f97e1122]
+                    - cell "–" [ref=f97e1123]
+                    - cell "Medium" [ref=f97e1124]
+                    - cell "131,072" [ref=f97e1125]
+                  - row [ref=f97e1126]:
+                    - cell [ref=f97e1127]:
+                      - link "llama-3-3-70b-instruct-hf" [ref=f97e1128] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-3-3
+                    - cell "Meta" [ref=f97e1129]
+                    - cell "–" [ref=f97e1130]
+                    - cell "Large" [ref=f97e1131]
+                    - cell "131,072" [ref=f97e1132]
+                  - row [ref=f97e1133]:
+                    - cell [ref=f97e1134]:
+                      - link "llama-4-maverick-17b-128e-instruct-fp8" [ref=f97e1135] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-4
+                    - cell "Meta" [ref=f97e1136]
+                    - cell "–" [ref=f97e1137]
+                    - cell "–" [ref=f97e1138]
+                    - cell "131,072" [ref=f97e1139]
+                  - row [ref=f97e1140]:
+                    - cell [ref=f97e1141]:
+                      - link "llama-4-maverick-17b-128e-instruct-int4" [ref=f97e1142] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-4
+                    - cell "Meta" [ref=f97e1143]
+                    - cell "–" [ref=f97e1144]
+                    - cell "–" [ref=f97e1145]
+                    - cell "131,072" [ref=f97e1146]
+                  - row [ref=f97e1147]:
+                    - cell [ref=f97e1148]:
+                      - link "llama-4-scout-17b-16e-instruct-fp8-dynamic" [ref=f97e1149] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#llama-4
+                    - cell "Meta" [ref=f97e1150]
+                    - cell "–" [ref=f97e1151]
+                    - cell "–" [ref=f97e1152]
+                    - cell "131,072" [ref=f97e1153]
+                  - row [ref=f97e1154]:
+                    - cell [ref=f97e1155]:
+                      - link "codestral-2501" [ref=f97e1156] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#codestral-2501
+                    - cell "Meta" [ref=f97e1157]
+                    - cell "$36.40" [ref=f97e1158]
+                    - cell "–" [ref=f97e1159]
+                    - cell "65,536" [ref=f97e1160]
+                  - row [ref=f97e1161]:
+                    - cell [ref=f97e1162]:
+                      - link "ministral-3b-instruct-2512" [ref=f97e1163] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#ministral-3
+                    - cell "Mistral AI" [ref=f97e1164]
+                    - cell "–" [ref=f97e1165]
+                    - cell "–" [ref=f97e1166]
+                    - cell "262,144" [ref=f97e1167]
+                  - row [ref=f97e1168]:
+                    - cell [ref=f97e1169]:
+                      - link "ministral-8b-instruct-2512" [ref=f97e1170] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#ministral-3
+                    - cell "Mistral AI" [ref=f97e1171]
+                    - cell "–" [ref=f97e1172]
+                    - cell "–" [ref=f97e1173]
+                    - cell "262,144" [ref=f97e1174]
+                  - row [ref=f97e1175]:
+                    - cell [ref=f97e1176]:
+                      - link "ministral-8b-instruct-2410" [ref=f97e1177] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html#ministral-8b-instruct-2410
+                    - cell "Mistral AI" [ref=f97e1178]
+                    - cell "$9.12" [ref=f97e1179]
+                    - cell "–" [ref=f97e1180]
+                    - cell "131,072" [ref=f97e1181]
+                  - row [ref=f97e1182]:
+                    - cell "ministral-14b-instruct-2512" [ref=f97e1183]
+                    - cell "Mistral AI" [ref=f97e1184]
+                    - cell "–" [ref=f97e1185]:
+                      - list:
+                        - listitem: –
+                    - cell "–" [ref=f97e1186]
+                    - cell "262,144" [ref=f97e1187]
+                  - row [ref=f97e1188]:
+                    - cell [ref=f97e1189]:
+                      - link "mistral-large-2512" [ref=f97e1190] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-large-instruct-2411
+                    - cell "Mistral AI" [ref=f97e1191]
+                    - cell "–" [ref=f97e1192]
+                    - cell "–" [ref=f97e1193]
+                    - cell "256,000" [ref=f97e1194]
+                  - row [ref=f97e1195]:
+                    - cell [ref=f97e1196]:
+                      - link "mistral-large-instruct-2407" [ref=f97e1197] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-large
+                    - cell "Mistral AI" [ref=f97e1198]
+                    - cell "$36.40" [ref=f97e1199]
+                    - cell "Large" [ref=f97e1200]
+                    - cell "131,072" [ref=f97e1201]
+                  - row [ref=f97e1202]:
+                    - cell [ref=f97e1203]:
+                      - link "mistral-large-instruct-2411" [ref=f97e1204] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-large-instruct-2411
+                    - cell "Mistral AI" [ref=f97e1205]
+                    - cell "$36.40" [ref=f97e1206]
+                    - cell "Large" [ref=f97e1207]
+                    - cell "131,072" [ref=f97e1208]
+                  - row [ref=f97e1209]:
+                    - cell [ref=f97e1210]:
+                      - link "mistral-medium-2505" [ref=f97e1211] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-medium
+                    - cell "Mistral AI" [ref=f97e1212]
+                    - cell "$36.40" [ref=f97e1213]
+                    - cell "–" [ref=f97e1214]
+                    - cell "131,072" [ref=f97e1215]
+                  - row [ref=f97e1216]:
+                    - cell [ref=f97e1217]:
+                      - link "mistral-medium-2508" [ref=f97e1218] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-medium
+                    - cell "Mistral AI" [ref=f97e1219]
+                    - cell "$36.40" [ref=f97e1220]
+                    - cell "–" [ref=f97e1221]
+                    - cell "131,072" [ref=f97e1222]
+                  - row [ref=f97e1223]:
+                    - cell [ref=f97e1224]:
+                      - link "mistral-nemo-instruct-2407" [ref=f97e1225] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-nemo-instruct-2407
+                    - cell "Mistral AI" [ref=f97e1226]
+                    - cell "–" [ref=f97e1227]
+                    - cell "Small" [ref=f97e1228]
+                    - cell "131,072" [ref=f97e1229]
+                  - row [ref=f97e1230]:
+                    - cell [ref=f97e1231]:
+                      - link "mistral-small-3-1-24b-instruct-2503" [ref=f97e1232] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-small-3-1-24b-instruct-2503
+                    - cell "Mistral AI" [ref=f97e1233]
+                    - cell "–" [ref=f97e1234]
+                    - cell "–" [ref=f97e1235]
+                    - cell "131,072" [ref=f97e1236]
+                  - row [ref=f97e1237]:
+                    - cell [ref=f97e1238]:
+                      - link "mistral-small-3-2-24b-instruct-2506" [ref=f97e1239] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mistral-small-3-2-24b-instruct-2506
+                    - cell "Mistral AI" [ref=f97e1240]
+                    - cell "–" [ref=f97e1241]
+                    - cell "–" [ref=f97e1242]
+                    - cell "131,072" [ref=f97e1243]
+                  - row [ref=f97e1244]:
+                    - cell [ref=f97e1245]:
+                      - link "mixtral-8x7b-base" [ref=f97e1246] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mixtral-8x7b-base
+                    - cell "Mistral AI" [ref=f97e1247]
+                    - cell "–" [ref=f97e1248]
+                    - cell "Medium" [ref=f97e1249]
+                    - cell "32,768" [ref=f97e1250]
+                  - row [ref=f97e1251]:
+                    - cell [ref=f97e1252]:
+                      - link "mixtral-8x7b-instruct-v01" [ref=f97e1253] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mixtral-8x7b-instruct-v01
+                    - cell "Mistral AI" [ref=f97e1254]
+                    - cell "–" [ref=f97e1255]
+                    - cell "Medium" [ref=f97e1256]
+                    - cell "32,768" [ref=f97e1257]
+                  - row [ref=f97e1258]:
+                    - cell [ref=f97e1259]:
+                      - link "mt0-xxl-13b" [ref=f97e1260] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#mt0-xxl-13b
+                    - cell "BigScience" [ref=f97e1261]
+                    - cell "–" [ref=f97e1262]
+                    - cell "Small" [ref=f97e1263]
+                    - cell "4,096" [ref=f97e1264]
+                  - row [ref=f97e1265]:
+                    - cell "nvidia-nemotron-3-super-120b-a12b-fp8" [ref=f97e1266]
+                    - cell "NVIDIA" [ref=f97e1267]
+                    - cell "–" [ref=f97e1268]:
+                      - list:
+                        - listitem: –
+                    - cell "–" [ref=f97e1269]:
+                      - list:
+                        - listitem: –
+                    - cell "262,144" [ref=f97e1270]
+                  - row [ref=f97e1271]:
+                    - cell "nvidia-nemotron-nano-12b-v2-vl-fp8" [ref=f97e1272]
+                    - cell "NVIDIA" [ref=f97e1273]
+                    - cell "–" [ref=f97e1274]:
+                      - list:
+                        - listitem: –
+                    - cell "–" [ref=f97e1275]:
+                      - list:
+                        - listitem: –
+                    - cell "131,072" [ref=f97e1276]
+                  - row [ref=f97e1277]:
+                    - cell [ref=f97e1278]:
+                      - link "pixtral-12b" [ref=f97e1279] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#pixtral-12b
+                    - cell "Mistral AI" [ref=f97e1280]
+                    - cell "–" [ref=f97e1281]
+                    - cell "–" [ref=f97e1282]
+                    - cell "128,000" [ref=f97e1283]
+                  - row [ref=f97e1284]:
+                    - cell [ref=f97e1285]:
+                      - link "poro-34b-chat" [ref=f97e1286] [cursor=pointer]:
+                        - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html#poro-34b-chat
+                    - cell "LumiOpen" [ref=f97e1287]
+                    - cell "–" [ref=f97e1288]
+                    - cell "Medium" [ref=f97e1289]
+                    - cell "2,048" [ref=f97e1290]
+              - paragraph [ref=f97e1291]
+          - generic [ref=f97e1292]:
+            - heading [level=2] [ref=f97e1293]:
+              - text: Learn more
+              - link "Copy link to clipboard" [ref=f97e1294] [cursor=pointer]:
+                - /url: /docs/en/watsonx/saas?topic=solutions-supported-foundation-models#learn-more
+            - list [ref=f97e1298]:
+              - listitem [ref=f97e1299]:
+                - text: –
+                - link "IBM foundation models" [ref=f97e1300] [cursor=pointer]:
+                  - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-ibm.html
+              - listitem [ref=f97e1301]:
+                - text: –
+                - link "Third-party foundation models" [ref=f97e1302] [cursor=pointer]:
+                  - /url: /docs/en/SSYOK8/wsj/analyze-data/fm-models-details.html
+              - listitem [ref=f97e1303]:
+                - text: – For a list of which models are provided in each regional data center, see
+                - link "Regional availability of foundation models" [ref=f97e1304] [cursor=pointer]:
+                  - /url: /docs/en/SSYOK8/wsj/getting-started/regional-datactr.html#data-centers
+                - text: .
+              - listitem [ref=f97e1305]:
+                - text: – For details about foundation model pricing, see
+                - link "Billing details for generative AI assets" [ref=f97e1306] [cursor=pointer]:
+                  - /url: /docs/en/SSYOK8/wsj/getting-started/wxai-runtime-plans-genai.html
+                - text: .
+              - listitem [ref=f97e1307]:
+                - text: – For information about pricing and rate limiting, see
+                - link "watsonx.ai Runtime plans" [ref=f97e1308] [cursor=pointer]:
+                  - /url: /docs/en/SSYOK8/wsj/getting-started/wml-plans.html#ru-metering
+                - text: .
+      - navigation "Back to top"

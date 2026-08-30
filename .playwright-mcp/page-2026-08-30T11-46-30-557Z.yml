@@ -1,0 +1,262 @@
+- generic [active] [ref=f49e1]:
+  - generic [ref=f49e7]:
+    - banner [ref=f49e8]:
+      - generic [ref=f49e11]:
+        - generic:
+          - navigation "Skip to content":
+            - link "Skip to content" [ref=f49e12] [cursor=pointer]:
+              - /url: "#main-content"
+          - link "IBM logo" [ref=f49e15] [cursor=pointer]:
+            - /url: https://www.ibm.com/
+        - generic [ref=f49e21]:
+          - link "Documentation" [ref=f49e24] [cursor=pointer]:
+            - /url: https://www.ibm.com/docs/en
+          - generic [ref=f49e25]:
+            - search [ref=f49e26]:
+              - combobox "IBM search field" [expanded] [ref=f49e27]:
+                - textbox "IBM search field" [ref=f49e28]:
+                  - /placeholder: Search in IBM watsonx as a Service
+                - generic:
+                  - listbox "suggestions-list"
+            - generic [ref=f49e29]:
+              - button "Search all of IBM" [ref=f49e30] [cursor=pointer]
+              - button "Clear input" [ref=f49e33] [cursor=pointer]
+        - generic [ref=f49e37]:
+          - button "User profile" [ref=f49e38] [cursor=pointer]
+          - generic: My IBM
+          - generic: Log in
+      - complementary "Dark mode button":
+        - generic [ref=f49e41]:
+          - button "Dark mode" [ref=f49e43] [cursor=pointer]
+          - tooltip
+    - main [ref=f49e46]:
+      - generic [ref=f49e48]:
+        - generic [ref=f49e49]:
+          - navigation "TOC version selector" [ref=f49e50]:
+            - generic [ref=f49e51]:
+              - generic [ref=f49e52]: IBM watsonx
+              - generic [ref=f49e54]:
+                - button "Close table of contents" [ref=f49e56] [cursor=pointer]
+                - tooltip
+            - img "Active loading indicator" [ref=f49e60]
+          - complementary "Show full table of contents" [ref=f49e63]:
+            - generic [ref=f49e64]:
+              - checkbox "Show full table of contents" [checked] [ref=f49e65]
+              - generic [ref=f49e66] [cursor=pointer]: Show full table of contents
+          - search "Filter on titles" [ref=f49e69]:
+            - searchbox "Filter on titles" [ref=f49e71]
+        - navigation "TOC navigation" [ref=f49e72]:
+          - list [ref=f49e73]:
+            - listitem [ref=f49e74]:
+              - list [ref=f49e75]:
+                - listitem [ref=f49e76]:
+                  - link "Documentation home" [ref=f49e78] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=documentation-home
+                - listitem [ref=f49e79]:
+                  - generic [ref=f49e80]:
+                    - link "Overview of IBM watsonx" [ref=f49e81] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=overview-watsonx
+                    - generic [ref=f49e82] [cursor=pointer]
+                - listitem [ref=f49e85]:
+                  - generic [ref=f49e86]:
+                    - link "Developer Hub" [ref=f49e87] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=developer-hub
+                    - generic [ref=f49e88] [cursor=pointer]
+                - listitem [ref=f49e91]:
+                  - generic [ref=f49e92]:
+                    - link "Planning an AI solution" [ref=f49e93] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=planning-ai-solution
+                    - generic [ref=f49e94] [cursor=pointer]
+                - listitem [ref=f49e97]:
+                  - generic [ref=f49e98]:
+                    - link "Getting started and tutorials" [ref=f49e99] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=getting-started-tutorials
+                    - generic [ref=f49e100] [cursor=pointer]
+                - listitem [ref=f49e103]:
+                  - generic [ref=f49e104]:
+                    - link "Gen AI solutions" [ref=f49e105] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=gen-ai-solutions
+                    - generic [ref=f49e106] [cursor=pointer]
+                - listitem [ref=f49e109]:
+                  - generic [ref=f49e110]:
+                    - link "Projects" [ref=f49e111] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=projects
+                    - generic [ref=f49e112] [cursor=pointer]
+                - listitem [ref=f49e115]:
+                  - generic [ref=f49e116]:
+                    - link "Deployment spaces" [ref=f49e117] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=deployment-spaces
+                    - generic [ref=f49e118] [cursor=pointer]
+                - listitem [ref=f49e121]:
+                  - generic [ref=f49e122]:
+                    - link "Preparing data" [ref=f49e123] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=preparing-data
+                    - generic [ref=f49e124] [cursor=pointer]
+                - listitem [ref=f49e127]:
+                  - generic [ref=f49e128]:
+                    - link "Data science solutions" [ref=f49e129] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=data-science-solutions
+                    - generic [ref=f49e130] [cursor=pointer]
+                - listitem [ref=f49e133]:
+                  - generic [ref=f49e134]:
+                    - link "Deploying AI" [ref=f49e135] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=deploying-ai
+                    - generic [ref=f49e136] [cursor=pointer]
+                - listitem [ref=f49e139]:
+                  - generic [ref=f49e140]:
+                    - link "Governing AI" [ref=f49e141] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=governing-ai
+                    - generic [ref=f49e142] [cursor=pointer]
+                - listitem [ref=f49e145]:
+                  - generic [ref=f49e146]:
+                    - link "Administration" [ref=f49e147] [cursor=pointer]:
+                      - /url: /docs/en/watsonx/saas?topic=administration
+                    - generic [ref=f49e148] [cursor=pointer]
+                - listitem [ref=f49e151]:
+                  - link "Glossary" [ref=f49e153] [cursor=pointer]:
+                    - /url: /docs/en/watsonx/saas?topic=glossary
+          - link "Announcements & sales manuals" [ref=f49e155] [cursor=pointer]:
+            - /url: /docs/en/watsonx/saas?announcement=watsonx-prem-cloud
+        - complementary "Download PDF" [ref=f49e159]:
+          - link "Download PDF" [ref=f49e162] [cursor=pointer]:
+            - /url: /docs/en/SSYOK8/pdf/watsonx-saas-documentation.pdf
+      - generic [ref=f49e166]:
+        - generic [ref=f49e167]:
+          - link "Get hands-on experience with IBM tech Join one of the largest technical IBM community gatherings! Dismiss TechXchange banner" [ref=f49e168] [cursor=pointer]:
+            - /url: https://www.ibm.com/events/techxchange
+            - generic [ref=f49e169]: Get hands-on experience with IBM tech
+            - generic [ref=f49e170]: Join one of the largest technical IBM community gatherings!
+            - generic [ref=f49e171]: →
+            - button "Dismiss TechXchange banner" [ref=f49e172]
+          - generic [ref=f49e175]:
+            - text: / / /
+            - heading "IBM watsonx as a Service" [level=1] [ref=f49e180]
+          - generic [ref=f49e183]:
+            - heading "Resources" [level=2] [ref=f49e186]
+            - generic [ref=f49e190]:
+              - link [ref=f49e191] [cursor=pointer]:
+                - /url: https://www.ibm.com/support/entry/portal/support?lnk=ushpv18hcwh1&lnk2=support
+                - generic [ref=f49e193]:
+                  - heading "IBM Support Portal" [level=3] [ref=f49e194]
+                  - paragraph [ref=f49e196]: Get assistance for the IBM products, services, and software you own.
+                  - paragraph [ref=f49e197]
+              - link [ref=f49e201] [cursor=pointer]:
+                - /url: https://www.ibm.com/support/fixcentral?lc=en&lot=153
+                - generic [ref=f49e203]:
+                  - heading "IBM Fix Central" [level=3] [ref=f49e204]
+                  - paragraph [ref=f49e206]: Provides fixes and updates for your system's software, hardware, and operating system.
+                  - paragraph [ref=f49e207]
+              - link [ref=f49e211] [cursor=pointer]:
+                - /url: https://www.ibm.com/software/passportadvantage/
+                - generic [ref=f49e213]:
+                  - heading "IBM Passport Advantage" [level=3] [ref=f49e214]
+                  - paragraph [ref=f49e216]: Provides you with secure access to software downloads and media.
+                  - paragraph [ref=f49e217]
+              - link [ref=f49e221] [cursor=pointer]:
+                - /url: https://www.redbooks.ibm.com/?lnk=ushpv18hcwh3&amp;lnk2=learn
+                - generic [ref=f49e223]:
+                  - heading "IBM Redbooks" [level=3] [ref=f49e224]
+                  - paragraph [ref=f49e226]: Find best practices for integrating IBM technologies.
+                  - paragraph [ref=f49e227]
+              - link [ref=f49e231] [cursor=pointer]:
+                - /url: https://developer.ibm.com/apis/
+                - generic [ref=f49e233]:
+                  - heading "IBM API Hub" [level=3] [ref=f49e234]
+                  - paragraph [ref=f49e236]: Discover and try the API-based solutions you need to build your next enterprise application.
+                  - paragraph [ref=f49e237]
+              - link [ref=f49e241] [cursor=pointer]:
+                - /url: https://www.ibm.com/training/
+                - generic [ref=f49e243]:
+                  - heading "IBM Training" [level=3] [ref=f49e244]
+                  - paragraph [ref=f49e246]: Explore, learn and succeed with IBM training and certification.
+                  - paragraph [ref=f49e247]
+        - generic [ref=f49e251]:
+          - generic [ref=f49e252]: While IBM values the use of inclusive language, terms that are outside of IBM's direct influence, for the sake of maintaining user understanding, are sometimes required. As other industry leaders join IBM in embracing the use of inclusive language, IBM will continue to update the documentation to reflect those changes.
+          - generic [ref=f49e253]: © Copyright IBM Corporation 2024
+        - contentinfo "footer" [ref=f49e257]:
+          - navigation [ref=f49e259]:
+            - generic [ref=f49e260]:
+              - generic [ref=f49e261]:
+                - link "IBM logo" [ref=f49e262] [cursor=pointer]:
+                  - /url: https://www.ibm.com/
+                - list [ref=f49e269]:
+                  - generic:
+                    - listitem [ref=f49e270]:
+                      - link "Contact IBM" [ref=f49e271] [cursor=pointer]:
+                        - /url: https://www.ibm.com/contact?lnk=flg-cont-usen
+                    - listitem [ref=f49e272]:
+                      - link "Privacy" [ref=f49e273] [cursor=pointer]:
+                        - /url: https://www.ibm.com/us-en/privacy
+                    - listitem [ref=f49e274]:
+                      - link "Terms of use" [ref=f49e275] [cursor=pointer]:
+                        - /url: https://www.ibm.com/legal?lnk=flg-tous-usen
+                    - listitem [ref=f49e276]:
+                      - link "Accessibility" [ref=f49e277] [cursor=pointer]:
+                        - /url: https://www.ibm.com/able/?lnk=flg-acce-usen
+                    - complementary "Open Cookie Preferences Modal" [ref=f49e278]:
+                      - link "Cookie Preferences, opens a dedicated popup modal window" [ref=f49e279] [cursor=pointer]: Cookie Preferences
+              - combobox [ref=f49e283] [cursor=pointer]:
+                - option "Arabic / عربية"
+                - option "Bulgarian / Български"
+                - option "Catalan / Català"
+                - option "Czech / Čeština"
+                - option "Danish / Dansk"
+                - option "German / Deutsch"
+                - option "Greek / Ελληνικά"
+                - option "English" [selected]
+                - option "Spanish / Español"
+                - option "Finnish / Suomi"
+                - option "French / Français"
+                - option "Croatian / Hrvatski"
+                - option "Hungarian / Magyar"
+                - option "Italian / Italien"
+                - option "Hebrew / עברית"
+                - option "Japanese / 日本語"
+                - option "Korean / 한국어"
+                - option "Kazakh / Қазақша"
+                - option "Dutch / Nederlands"
+                - option "Norwegian / Norsk"
+                - option "Polish / polski"
+                - option "Portuguese/Brazil / Português/Brasil"
+                - option "Portuguese/Portugal / Português/Portugal"
+                - option "Romanian / Română"
+                - option "Russian / Русский"
+                - option "Slovak / Slovenčina"
+                - option "Slovenian / slovenščina"
+                - option "Serbian / srpski"
+                - option "Swedish / Svenska"
+                - option "Thai / ภาษาไทย"
+                - option "Turkish / Türkçe"
+                - option "Vietnamese / Việt"
+                - option "Chinese Simplified / 简体中文"
+                - option "Chinese Traditional / 繁體中文"
+        - navigation "IBM Documentation Help" [ref=f49e285]:
+          - list [ref=f49e286]:
+            - listitem [ref=f49e287]:
+              - link "IBM Documentation Help" [ref=f49e288] [cursor=pointer]:
+                - /url: /docs/en/about
+  - banner "consent_blackbar":
+    - banner [ref=f49e289]:
+      - generic [ref=f49e292]:
+        - button "close icon" [ref=f49e294] [cursor=pointer]
+        - generic [ref=f49e295]:
+          - generic [ref=f49e299]:
+            - text: About cookies on this site
+            - generic [ref=f49e300]:
+              - generic [ref=f49e301]: Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising.
+              - generic [ref=f49e302]:
+                - text: For more information, please review your
+                - link "cookie preferences" [ref=f49e303] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: options. By visiting our website, you agree to our processing of information as described in IBM’s
+                - link "privacy statement" [ref=f49e304] [cursor=pointer]:
+                  - /url: https://www.ibm.com/privacy
+                - text: .
+              - generic [ref=f49e305]:
+                - text: To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed
+                - link "here" [ref=f49e306] [cursor=pointer]:
+                  - /url: "#truste_domain_list"
+                - text: .
+          - generic [ref=f49e307]:
+            - button "Accept All" [ref=f49e308] [cursor=pointer]
+            - button "More options" [ref=f49e310] [cursor=pointer]

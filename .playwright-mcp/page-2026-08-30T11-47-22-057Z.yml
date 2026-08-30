@@ -1,0 +1,53 @@
+- generic [ref=f74e7]:
+  - banner [ref=f74e8]:
+    - generic [ref=f74e11]:
+      - generic:
+        - navigation "Skip to content":
+          - link "Skip to content" [ref=f74e12] [cursor=pointer]:
+            - /url: "#main-content"
+        - link "IBM logo" [ref=f74e15] [cursor=pointer]:
+          - /url: https://www.ibm.com/
+      - generic [ref=f74e21]:
+        - link "Documentation" [ref=f74e24] [cursor=pointer]:
+          - /url: https://www.ibm.com/docs/en
+        - generic [ref=f74e25]:
+          - search [ref=f74e26]:
+            - combobox "IBM search field" [expanded] [ref=f74e27]:
+              - textbox "IBM search field" [ref=f74e28]:
+                - /placeholder: Search IBM Documentation
+              - generic:
+                - listbox "suggestions-list"
+          - generic [ref=f74e29]:
+            - button "Search all of IBM" [ref=f74e30] [cursor=pointer]
+            - button "Clear input" [ref=f74e33] [cursor=pointer]
+      - generic [ref=f74e37]:
+        - button "User profile" [ref=f74e38] [cursor=pointer]
+        - generic: My IBM
+        - generic: Log in
+    - complementary "Dark mode button":
+      - generic [ref=f74e41]:
+        - button "Dark mode" [ref=f74e43] [cursor=pointer]
+        - tooltip
+  - main [ref=f74e47]:
+    - link "Get hands-on experience with IBM tech Join one of the largest technical IBM community gatherings! Dismiss TechXchange banner" [ref=f74e48] [cursor=pointer]:
+      - /url: https://www.ibm.com/events/techxchange
+      - generic [ref=f74e49]: Get hands-on experience with IBM tech
+      - generic [ref=f74e50]: Join one of the largest technical IBM community gatherings!
+      - generic [ref=f74e51]: →
+      - button "Dismiss TechXchange banner" [ref=f74e52]
+    - generic [ref=f74e55]:
+      - generic: / / /
+      - generic [ref=f74e57]:
+        - generic [ref=f74e58]:
+          - generic [ref=f74e59]: Was this topic helpful?
+          - complementary "Topic rating buttons" [ref=f74e60]:
+            - generic [ref=f74e61]:
+              - button "positive feedback" [ref=f74e63] [cursor=pointer]
+              - tooltip
+            - generic [ref=f74e66]:
+              - button "negative feedback" [ref=f74e68] [cursor=pointer]
+              - tooltip
+        - complementary "Positive feedback module"
+        - complementary "Negative feedback module"
+        - complementary "provide more feedback"
+    - navigation "Back to top"
